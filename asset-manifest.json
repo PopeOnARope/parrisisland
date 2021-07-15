@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/parrisisland/static/css/main.28ab5bd4.chunk.css",
+    "main.js": "/parrisisland/static/js/main.0098c65f.chunk.js",
+    "main.js.map": "/parrisisland/static/js/main.0098c65f.chunk.js.map",
+    "runtime-main.js": "/parrisisland/static/js/runtime-main.681b7bc1.js",
+    "runtime-main.js.map": "/parrisisland/static/js/runtime-main.681b7bc1.js.map",
+    "static/js/2.ec3312df.chunk.js": "/parrisisland/static/js/2.ec3312df.chunk.js",
+    "static/js/2.ec3312df.chunk.js.map": "/parrisisland/static/js/2.ec3312df.chunk.js.map",
+    "static/js/3.e50767ec.chunk.js": "/parrisisland/static/js/3.e50767ec.chunk.js",
+    "static/js/3.e50767ec.chunk.js.map": "/parrisisland/static/js/3.e50767ec.chunk.js.map",
+    "index.html": "/parrisisland/index.html",
+    "static/css/main.28ab5bd4.chunk.css.map": "/parrisisland/static/css/main.28ab5bd4.chunk.css.map",
+    "static/js/2.ec3312df.chunk.js.LICENSE.txt": "/parrisisland/static/js/2.ec3312df.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/parrisisland/static/media/square-721-bt.cb993cad.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.681b7bc1.js",
+    "static/js/2.ec3312df.chunk.js",
+    "static/css/main.28ab5bd4.chunk.css",
+    "static/js/main.0098c65f.chunk.js"
+  ]
+}
