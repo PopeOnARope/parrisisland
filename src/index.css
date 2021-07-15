@@ -1,13 +1,58 @@
-body {
+@font-face {
+  font-family: "Venetian301 BT";
+  src: url("./assets/fonts/VEN301N.ttf");
+}
+
+@font-face {
+  font-family: "Square721 BT";
+  src: url("./assets/fonts/square-721-bt.ttf");
+}
+
+body,
+#root {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 1920px;
+  height: 1080px;
+  background: #ddd;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-YELLOW {
+  background: linear-gradient(
+    90deg,
+    rgba(222, 181, 72, 0.0718662464985994) 0%,
+    rgba(222, 181, 72, 0.8085609243697479) 27%,
+    rgba(222, 181, 72, 1) 55%
+  );
+}
+
+.gradient-GREEN {
+  background: linear-gradient(
+    90deg,
+    rgba(103, 172, 105, 0.0718662464985994) 0%,
+    rgba(103, 172, 105, 0.8085609243697479) 27%,
+    rgba(103, 172, 105, 1) 55%
+  );
+}
+
+.ven {
+  font-family: "Venetian301 BT";
+}
+
+.square {
+  font-family: "Square721 BT";
+}
+
+.tracking-super-wide {
+  letter-spacing: 14px;
+}
+/*@tailwind utilities {*/
+/*}*/
