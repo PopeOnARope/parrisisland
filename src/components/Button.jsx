@@ -1,4 +1,5 @@
 import React from "react";
+import DoubleArrow from "../assets/images/DoubleArrow";
 
 const sizes = {
   lg: "p-6 text-6xl",
@@ -11,6 +12,7 @@ const Button = ({
   width,
   alignment,
   style,
+  arrow,
   COLOR,
   ...rest
 }) => {
@@ -22,11 +24,12 @@ const Button = ({
           : `border-2 border-${COLOR.toLowerCase()}`
       } text-white ${sizes[variant]} mt-5 square text-${
         alignment || "center"
-      } ml-4`}
+      } ml-4 ${arrow && "inline-flex justify-between items-center"}`}
       style={{ width: width || (variant === "sm" ? "600px" : "680px") }}
       onClick={onClick}
     >
       {children}
+      {arrow && <DoubleArrow height="50px" />}
     </button>
   );
 };

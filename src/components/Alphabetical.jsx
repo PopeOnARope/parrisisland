@@ -24,20 +24,24 @@ const Alphabetical = ({
             COLOR="GREEN"
             variant="sm"
             width="292px"
-            style={
-              currentScreen.NAME === "ALPHABETICAL_BATTLES" && "outline"
-            }
-            onClick={()=>{setCurrentScreen(getScreen("ALPHABETICAL_OPERATIONS"))}}
+            style={currentScreen.NAME === "ALPHABETICAL_BATTLES" && "outline"}
+            onClick={() => {
+              setCurrentScreen(getScreen("ALPHABETICAL_OPERATIONS"));
+            }}
           >
             OPERATIONS
           </Button>
 
           <Button
             COLOR="YELLOW"
-            style={currentScreen.NAME === "ALPHABETICAL_OPERATIONS" && "outline"}
+            style={
+              currentScreen.NAME === "ALPHABETICAL_OPERATIONS" && "outline"
+            }
             variant="sm"
             width="292px"
-            onClick={()=>{setCurrentScreen(getScreen("ALPHABETICAL_BATTLES"))}}
+            onClick={() => {
+              setCurrentScreen(getScreen("ALPHABETICAL_BATTLES"));
+            }}
           >
             BATTLES
           </Button>
@@ -47,6 +51,7 @@ const Alphabetical = ({
             {...action}
             variant="sm"
             alignment={"left"}
+            arrow="true"
             onClick={() => setCurrentScreen(getScreen(action.DIRECTS_TO))}
           >
             {action.LABEL}
