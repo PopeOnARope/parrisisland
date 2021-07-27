@@ -7,11 +7,13 @@ const TextBox = ({ setCurrentScreen, setPreviousScreen, ...props }) => {
   return (
     <div
       className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row justify-end"
-      //    style={{
-      //   background: `url(${require(`../assets/images/ss.png`).default})`,
-      //   backgroundRepeat: 'none',
-      //   backgroundSize: 'cover',
-      // }}
+      style={{
+        background: `url(${
+          require(`../assets/images/Home_Menus_BaseMap.jpg`).default
+        })`,
+        backgroundRepeat: "none",
+        backgroundSize: "cover",
+      }}
     >
       <div className="flex flex-col mt-80">
         <h1 className="ven text-5xl tracking-wider text-white">

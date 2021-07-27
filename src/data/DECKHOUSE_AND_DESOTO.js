@@ -1,0 +1,5 @@
+export const DECKHOUSE_AND_DESOTO = {
+  NAME: 'DECKHOUSE_AND_DESOTO',
+  TITLE: 'Deckhouse and Desoto',
+  BACKGROUND: 'DECKHOUSE_AND_DESOTO',
+};

@@ -4,16 +4,17 @@ import Button from "./Button";
 import { getScreen, screens } from "../data";
 import DoubleArrow from "../assets/images/DoubleArrow";
 import HotSpot from "./HotSpot";
+import CloseButton from "./CloseButton";
 
 const TextBox = ({ setCurrentScreen, setPreviousScreen, currentScreen }) => {
   return (
     <div
       className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row"
-      style={{
-        background: `url(${require(`../assets/images/ss3.png`).default})`,
-        backgroundRepeat: "none",
-        backgroundSize: "cover",
-      }}
+      // style={{
+      //   background: `url(${require(`../assets/images/ss3.png`).default})`,
+      //   backgroundRepeat: "none",
+      //   backgroundSize: "cover",
+      // }}
     >
       <div
         className="border-l-8 border-gray-900 bg-tan"
@@ -49,13 +50,15 @@ const TextBox = ({ setCurrentScreen, setPreviousScreen, currentScreen }) => {
         style={{
           width: "1220px",
           background: `url(${
-            require(`../assets/images/${currentScreen.BACKGROUND}.png`).default
+            require(`../assets/images/${currentScreen.BACKGROUND}.jpg`).default
           })`,
           backgroundRepeat: "none",
           backgroundSize: "cover",
         }}
+        className="flex flex-end"
       >
-        {currentScreen.HOTSPOTS.map((hotspot) => {
+        <CloseButton />
+        {currentScreen?.HOTSPOTS?.map((hotspot) => {
           return <HotSpot {...hotspot} />;
         })}
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 import { getScreen, screens } from "../data";
+import BackButton from "./BackButton";
 
 const Alphabetical = ({
   setCurrentScreen,
@@ -12,12 +13,22 @@ const Alphabetical = ({
   return (
     <div
       className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row justify-end"
-      // style={{
-      //   background: `url(${require(`../assets/images/ss2.png`).default})`,
-      //   backgroundRepeat: "none",
-      //   backgroundSize: "cover",
-      // }}
+      style={{
+        background: `url(${
+          require(`../assets/images/Home_Menus_BaseMap.jpg`).default
+        })`,
+        backgroundRepeat: "none",
+        backgroundSize: "cover",
+      }}
     >
+      <div className="h-full w-full flex flex-col justify-end pl-0 pb-16">
+        <BackButton
+          onClick={() => {
+            setCurrentScreen(getScreen("HOME"));
+          }}
+        />
+      </div>
+
       <div className="flex flex-col mt-36 mr-48">
         <div className="flex flex-row mr-3 mb-4" style={{ height: "100px" }}>
           <Button

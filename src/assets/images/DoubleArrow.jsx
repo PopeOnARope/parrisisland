@@ -11,7 +11,7 @@ function DoubleArrow(props) {
       xmlSpace="preserve"
       {...props}
     >
-      <style>{".prefix__st0{fill:#fff}"}</style>
+      <style>{`.prefix__st0{fill:${props.fill || "#eee"}`}</style>
       <path
         className="prefix__st0"
         d="M28.19 5.74h-3.62L54.83 36 24.57 66.26h3.62L58.45 36z"

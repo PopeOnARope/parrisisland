@@ -3,7 +3,7 @@ import DoubleArrow from "../assets/images/DoubleArrow";
 
 const sizes = {
   lg: "p-6 text-6xl",
-  sm: "p-6 py-4 text-4xl",
+  sm: "p-6 py-2 text-4xl",
 };
 const Button = ({
   children,

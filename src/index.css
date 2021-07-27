@@ -43,6 +43,15 @@ code {
   );
 }
 
+.gradient-GREEN-reverse {
+  background: linear-gradient(
+    270deg,
+    rgba(103, 172, 105, 0.0718662464985994) 0%,
+    rgba(103, 172, 105, 0.8085609243697479) 27%,
+    rgba(103, 172, 105, 1) 55%
+  );
+}
+
 .ven {
   font-family: "Venetian301 BT";
 }
