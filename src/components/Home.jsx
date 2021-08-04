@@ -1,9 +1,14 @@
 import React from "react";
 import Button from "./Button";
 
-import { getScreen, screens } from "../data";
+import { getScreen, screens, flows } from "../data";
 
-const TextBox = ({ setCurrentScreen, setPreviousScreen, ...props }) => {
+const TextBox = ({
+  setCurrentFlow,
+  setPreviousScreen,
+  setCurrentScreen,
+  ...props
+}) => {
   return (
     <div
       className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row justify-end"
@@ -27,7 +32,10 @@ const TextBox = ({ setCurrentScreen, setPreviousScreen, ...props }) => {
             {...action}
             variant="lg"
             alignment="right"
-            onClick={() => setCurrentScreen(getScreen(action.DIRECTS_TO))}
+            onClick={() => {
+              setCurrentFlow(action.DIRECTS_TO);
+              setCurrentScreen(getScreen(action.DIRECTS_TO));
+            }}
           >
             {action.LABEL}
           </Button>

@@ -1,9 +1,9 @@
-export const DAI_DO = {
+export const KHE_SAHN_SEIGE = {
 
-    NAME: 'DAI_DO',
+    NAME: 'KHE_SAHN_SEIGE',
     YEAR: '1967',
-    TITLE: 'Battle of Dai Do',
-    BACKGROUND: 'DAI_DO',
+    TITLE: 'Battle of Khe San Seige',
+    BACKGROUND: 'KHE_SAHN_SEIGE',
     DATES: 'February 27, 1967 - February 28, 1969',
     CONTENT:
       '<p>Testing Following Operations Hastings and Prairie, the United States Military Command in Vietnam remained concerned about a mass influx of enemy troops into South Vietnam through the Demilitarized Zone (DMZ). While the US and South Vietnam initially recognized the DMZ and did not enter the region, the North Vietnamese Army (NVA) had long employed it as a staging area for infiltrating troops and supplies into South Vietnam. One of the ideas to counter these incursions was the use of the Strong Point Obstacle System (SPOS). SPOS consisted of a series of fortified bases where the garrisons, using sensors and surveillance devices, could detect enemy troop movement. Secretary of Defense Robert McNamara was a chief proponent of this idea, which led to it being dubbed "McNamara’s Line."</p>\n' +
@@ -19,4 +19,3 @@ export const DAI_DO = {
       },
     ],
   };
-

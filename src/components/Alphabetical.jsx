@@ -6,6 +6,7 @@ import BackButton from "./BackButton";
 
 const Alphabetical = ({
   setCurrentScreen,
+                        setCurrentFlow,
   setPreviousScreen,
   currentScreen,
   ...props
@@ -37,6 +38,7 @@ const Alphabetical = ({
             width="292px"
             style={currentScreen.NAME === "ALPHABETICAL_BATTLES" && "outline"}
             onClick={() => {
+              setCurrentFlow('ALPHABETICAL_OPERATIONS')
               setCurrentScreen(getScreen("ALPHABETICAL_OPERATIONS"));
             }}
           >
@@ -51,6 +53,7 @@ const Alphabetical = ({
             variant="sm"
             width="292px"
             onClick={() => {
+              setCurrentFlow('ALPHABETICAL_BATTLES')
               setCurrentScreen(getScreen("ALPHABETICAL_BATTLES"));
             }}
           >

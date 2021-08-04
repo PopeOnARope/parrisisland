@@ -1,7 +1,9 @@
 export const CON_THIEN = {
   NAME: 'CON_THIEN',
-  TITLE: 'Con Thien',
+  YEAR: '1967',
+  TITLE: 'Battle of Con Thien',
   BACKGROUND: 'CON_THIEN',
+  DATES: 'February 27, 1967 - February 28, 1969',
   CONTENT:
     '<p>Following Operations Hastings and Prairie, the United States Military Command in Vietnam remained concerned about a mass influx of enemy troops into South Vietnam through the Demilitarized Zone (DMZ). While the US and South Vietnam initially recognized the DMZ and did not enter the region, the North Vietnamese Army (NVA) had long employed it as a staging area for infiltrating troops and supplies into South Vietnam. One of the ideas to counter these incursions was the use of the Strong Point Obstacle System (SPOS). SPOS consisted of a series of fortified bases where the garrisons, using sensors and surveillance devices, could detect enemy troop movement. Secretary of Defense Robert McNamara was a chief proponent of this idea, which led to it being dubbed "McNamara’s Line."</p>\n' +
     '<p>The Marine Corps leadership was strongly opposed to the idea, which would take troops away from the mobile defense patrols currently used along the DMZ. However, US Army leadership made it a priority and also ordered Marines to assist in the construction efforts. As the area between Con Thien and Gio Linh was cleared, Marines were no longer able to continue major offensive operations and instead had to concentrate on securing the bases that made up the SPOS. Con Thien was a strategically important position to hold. If the NVA had the opportunity to capture it, their artillery could bombard the larger base at Dong Ha.</p>\n' +

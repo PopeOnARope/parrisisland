@@ -22,7 +22,7 @@ const Button = ({
         style !== "outline"
           ? `gradient-${COLOR}`
           : `border-2 border-${COLOR.toLowerCase()}`
-      } text-white ${sizes[variant]} mt-5 square text-${
+      } text-white ${sizes[variant]} mt-4 square text-${
         alignment || "center"
       } ml-4 ${arrow && "inline-flex justify-between items-center"}`}
       style={{ width: width || (variant === "sm" ? "600px" : "680px") }}

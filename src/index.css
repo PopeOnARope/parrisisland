@@ -8,6 +8,11 @@
   src: url("./assets/fonts/square-721-bt.ttf");
 }
 
+@font-face {
+  font-family: "Calibri";
+  src: url("./assets/fonts/Calibri.ttf");
+}
+
 body,
 #root {
   margin: 0;
@@ -60,8 +65,20 @@ code {
   font-family: "Square721 BT";
 }
 
+.calibri {
+  font-family: "Calibri";
+}
+
 .tracking-super-wide {
   letter-spacing: 14px;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 /*@tailwind utilities {*/
 /*}*/

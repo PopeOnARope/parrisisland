@@ -1,21 +1,50 @@
 import React from "react";
-import ReactTooltip from "react-tooltip";
+import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-class HotSpot extends React.Component {
-  render() {
-    return (
-      <div
+import Hotspot_1_Icon from "../assets/images/Hotspot_1_Icon";
+import Hotspot_2_Icon from "../assets/images/Hotspot_2_Icon";
+import Hotspot_3_Icon from "../assets/images/Hotspot_3_Icon";
+import Hotspot_4_Icon from "../assets/images/Hotspot_4_Icon";
+import Hotspot_5_Icon from "../assets/images/Hotspot_5_Icon";
+
+const Icons = {
+  1: Hotspot_1_Icon,
+  2: Hotspot_2_Icon,
+  3: Hotspot_3_Icon,
+  4: Hotspot_4_Icon,
+  5: Hotspot_5_Icon,
+};
+
+const HotSpot = (props) => {
+  const [popoverOpen, setPopoverOpen] = React.useState(false);
+  const Icon = Icons[props.id];
+
+  const toggle = () => setPopoverOpen(!popoverOpen);
+  return (
+    <div
+      style={{
+        marginTop: `${props.X}px`,
+        marginLeft: `${props.Y}px`,
+        position: "absolute",
+      }}
+    >
+      <a
+        className="bg-purple-100"
         style={{
-          marginTop: `${this.props.X}px`,
-          marginLeft: `${this.props.Y}px`,
-          position: "absolute",
+          display: "inherit",
+          // width: fit-content,
+          background: "#F5D952",
+          padding: 0,
+          borderRadius: "100%",
+          boxShadow: "0px 0px 15px 5px #000000",
         }}
+        onClick={props.onClick}
       >
-        <p data-tip={this.props.CONTENT}>Tooltip</p>
-        <ReactTooltip place="bottom" />
-      </div>
-    );
-  }
-}
+        <Icon width="80px" fill="#F5D952" />
+      </a>
+    </div>
+  );
+};
 
 export default HotSpot;
