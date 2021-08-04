@@ -41,11 +41,13 @@ function App() {
           currentFlow={currentFlow}
         />
       )}
-      {['CON_THIEN',
+      {[
+        'CON_THIEN',
         'DECKHOUSE_AND_DESOTO',
         'DAI_DO',
         'KHE_SAHN_HILL_FIGHTS',
-        'KHE_SAHN_SEIGE'].indexOf(currentScreen.NAME) > -1 && (
+        'KHE_SAHN_SEIGE',
+      ].indexOf(currentScreen.NAME) > -1 && (
         <Battle
           setCurrentScreen={setCurrentScreen}
           setCurrentFlow={setCurrentFlow}

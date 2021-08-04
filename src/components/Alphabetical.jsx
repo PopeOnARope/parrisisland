@@ -6,7 +6,7 @@ import BackButton from "./BackButton";
 
 const Alphabetical = ({
   setCurrentScreen,
-                        setCurrentFlow,
+  setCurrentFlow,
   setPreviousScreen,
   currentScreen,
   ...props
@@ -15,10 +15,10 @@ const Alphabetical = ({
     <div
       className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row justify-end"
       style={{
+        backgroundRepeat: "none",
         background: `url(${
           require(`../assets/images/Home_Menus_BaseMap.jpg`).default
         })`,
-        backgroundRepeat: "none",
         backgroundSize: "cover",
       }}
     >
@@ -38,7 +38,7 @@ const Alphabetical = ({
             width="292px"
             style={currentScreen.NAME === "ALPHABETICAL_BATTLES" && "outline"}
             onClick={() => {
-              setCurrentFlow('ALPHABETICAL_OPERATIONS')
+              setCurrentFlow("ALPHABETICAL_OPERATIONS");
               setCurrentScreen(getScreen("ALPHABETICAL_OPERATIONS"));
             }}
           >
@@ -53,7 +53,7 @@ const Alphabetical = ({
             variant="sm"
             width="292px"
             onClick={() => {
-              setCurrentFlow('ALPHABETICAL_BATTLES')
+              setCurrentFlow("ALPHABETICAL_BATTLES");
               setCurrentScreen(getScreen("ALPHABETICAL_BATTLES"));
             }}
           >

@@ -34,7 +34,7 @@ export const flows = {
 
 export const getScreen = (str) => screens.find((screen) => screen.NAME === str);
 export const getScreenFromFlow = ({ flow, str }) => {
-  const v = flows[flow].find((screen) => screen.NAME === str)
-  console.log({v})
-  return v
-}
+  const v = flows[flow].find((screen) => screen.NAME === str);
+  console.log({ v });
+  return v;
+};
