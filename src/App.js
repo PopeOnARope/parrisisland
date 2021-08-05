@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="h-full border-2 border-purple-400">
-      {/*<pre>{JSON.stringify({currentScreen, currentFlow}, undefined, 2)}</pre>*/}
+      <pre>{JSON.stringify({currentScreen, currentFlow}, undefined, 2)}</pre>
       {currentScreen.NAME === 'HOME' && (
         <Home
           setCurrentScreen={setCurrentScreen}

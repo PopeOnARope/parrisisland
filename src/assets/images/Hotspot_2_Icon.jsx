@@ -1,9 +1,9 @@
 import React from "react";
 
 const Icon = (props) => (
-  <svg y="0px" fill="#F5D952" {...props}>
+  <svg y="0px" x="0px" fill="#F5D952" {...props} viewBox="0 0 72 72">
     <g>
-      <circle className="st0" cx="36" cy="36" r="32.99" />
+      <circle className="st0" cx="36" cy="36" r="30" />
     </g>
     <g fill="black">
       <path

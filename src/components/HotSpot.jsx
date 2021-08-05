@@ -33,7 +33,6 @@ const HotSpot = (props) => {
         className="bg-purple-100"
         style={{
           display: "inherit",
-          // width: fit-content,
           background: "#F5D952",
           padding: 0,
           borderRadius: "100%",
@@ -41,7 +40,7 @@ const HotSpot = (props) => {
         }}
         onClick={props.onClick}
       >
-        <Icon width="80px" fill="#F5D952" />
+        <Icon width="50px" height="50px" fill="#F5D952" />
       </a>
     </div>
   );

@@ -94,7 +94,7 @@ const Battle = ({
             require(`../assets/images/${currentScreen.BACKGROUND}.jpg`).default
           })`,
           backgroundRepeat: "none",
-          backgroundSize: "contain",
+          backgroundSize: "cover",
         }}
         className="flex flex-end"
       >
@@ -120,7 +120,7 @@ const Battle = ({
             />
           );
         })}
-        <div className="position-absolute bg-yellow m-8 p-8 flex flex-row max-w-xl shadow">
+        <div className="position-absolute bg-yellow m-16 p-8 flex flex-row max-w-xl shadow">
           {popover || defaultPopoverContent}
         </div>
       </div>
