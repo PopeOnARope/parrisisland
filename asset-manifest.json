@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/parrisisland/static/css/main.54529431.chunk.css",
-    "main.js": "/parrisisland/static/js/main.408fabbf.chunk.js",
-    "main.js.map": "/parrisisland/static/js/main.408fabbf.chunk.js.map",
+    "main.css": "/parrisisland/static/css/main.09415428.chunk.css",
+    "main.js": "/parrisisland/static/js/main.a1edc766.chunk.js",
+    "main.js.map": "/parrisisland/static/js/main.a1edc766.chunk.js.map",
     "runtime-main.js": "/parrisisland/static/js/runtime-main.68742210.js",
     "runtime-main.js.map": "/parrisisland/static/js/runtime-main.68742210.js.map",
     "static/css/2.4a90fb16.chunk.css": "/parrisisland/static/css/2.4a90fb16.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.dd53098f.chunk.js.map": "/parrisisland/static/js/3.dd53098f.chunk.js.map",
     "index.html": "/parrisisland/index.html",
     "static/css/2.4a90fb16.chunk.css.map": "/parrisisland/static/css/2.4a90fb16.chunk.css.map",
-    "static/css/main.54529431.chunk.css.map": "/parrisisland/static/css/main.54529431.chunk.css.map",
+    "static/css/main.09415428.chunk.css.map": "/parrisisland/static/css/main.09415428.chunk.css.map",
     "static/js/2.54218a38.chunk.js.LICENSE.txt": "/parrisisland/static/js/2.54218a38.chunk.js.LICENSE.txt",
     "static/media/CON_THIEN.jpg": "/parrisisland/static/media/CON_THIEN.1051bf12.jpg",
     "static/media/index.css": "/parrisisland/static/media/square-721-bt.cb993cad.ttf",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.68742210.js",
     "static/css/2.4a90fb16.chunk.css",
     "static/js/2.54218a38.chunk.js",
-    "static/css/main.54529431.chunk.css",
-    "static/js/main.408fabbf.chunk.js"
+    "static/css/main.09415428.chunk.css",
+    "static/js/main.a1edc766.chunk.js"
   ]
 }
