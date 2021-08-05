@@ -1,20 +1,44 @@
 export const KHE_SAHN_SEIGE = {
   NAME: 'KHE_SAHN_SEIGE',
-  YEAR: '1967',
-  TITLE: 'Battle of Khe San Seige',
+  YEAR: '1968',
+  TITLE: 'Siege of Khe Sanh',
   BACKGROUND: 'KHE_SAHN_SEIGE',
-  DATES: 'February 27, 1967 - February 28, 1969',
+  DATES: 'January 1968',
   CONTENT:
-    '<p>Testing Following Operations Hastings and Prairie, the United States Military Command in Vietnam remained concerned about a mass influx of enemy troops into South Vietnam through the Demilitarized Zone (DMZ). While the US and South Vietnam initially recognized the DMZ and did not enter the region, the North Vietnamese Army (NVA) had long employed it as a staging area for infiltrating troops and supplies into South Vietnam. One of the ideas to counter these incursions was the use of the Strong Point Obstacle System (SPOS). SPOS consisted of a series of fortified bases where the garrisons, using sensors and surveillance devices, could detect enemy troop movement. Secretary of Defense Robert McNamara was a chief proponent of this idea, which led to it being dubbed "McNamara’s Line."</p>\n' +
-    '<p>The Marine Corps leadership was strongly opposed to the idea, which would take troops away from the mobile defense patrols currently used along the DMZ. However, US Army leadership made it a priority and also ordered Marines to assist in the construction efforts. As the area between Con Thien and Gio Linh was cleared, Marines were no longer able to continue major offensive operations and instead had to concentrate on securing the bases that made up the SPOS. Con Thien was a strategically important position to hold. If the NVA had the opportunity to capture it, their artillery could bombard the larger base at Dong Ha.</p>\n' +
-    '<p>The area bounded by Con Thien, Cam Lo, Gio Linh, and Dong Ha became known as "Leatherneck Square." Beginning in May 1967, throughout the construction of the SPOS, the NVA and Viet Cong, operating out of the DMZ, made numerous attempts to take the region. Over the course of several months, a series of costly operations were conducted around the square that defined the war for the Marines along the DMZ.</p>',
+    '<p>Located in a remote area west of Dong Ha, the Khe Sanh Combat Base functioned primarily as a support facility for surveillance units watching the Demilitarized Zone (DMZ) and the Ho Chi Minh Trail in neighboring Laos. Route 9, running east to west, provided the only ground route to and from Khe Sanh. A French colonial highway, Route 9 was a packed dirt track that was impassable during the monsoon season. Marines from 1st Battalion, 26th Regiment (1/26) had established a perimeter on hills surrounding Khe Sanh since sporadic fighting began in April and May 1967.</p>\n' +
+    '<p>In October and November 1967, two North Vietnamese Army (NVA) divisions began to move through Laos and across the Demilitarized Zone (DMZ). Suspecting an attack, the US Military increased the number of defenders at Khe Sanh to 5,000. At the same time, Operation Niagara I was launched in the first week of January 1968, using the various intelligence and strike capabilities of the Navy, Marine Corps and Air Force to monitor and counter NVA movements.</p>\n' +
+    '<p>In mid-January, monsoons closed Route 9 while some 20,000 NVA soldiers occupied positions and established rocket launchers at Hill 881 North, Co Roc and Area 305. On 21 January, the siege began. While the Khe Sanh Combat Base never saw any direct ground attacks, the hills surrounding it faced NVA assaults, notably Hill 881 South and Hill 861 (named for their height in meters). On Hill 861, the Marines were initially driven off, but supported by mortar fire, fought their way back to the summit. As long as the Marines maintained their perimeter, the NVA could not carry out their final offensive against Khe Sanh.</p>\n' +
+    '<p>Inside Khe Sanh, the Marines dug into the base’s red dirt to create underground bunkers. During the siege all supplies arrived by air; the entire time a helicopter or plane was on the airfield, it was under enemy fire. In response, the Marines developed a variety of techniques to reduce the time aircraft needed to be on the ground. Besides the use of air transport, tactical air support also played a crucial role in defending Khe Sanh.</p>\n' +
+    '<p>On 1 April, the Marines, alongside the 1st Air Cavalry Division, a brigade of the 101st Airborne Division and South Vietnamese troops launched Operation Pegasus to end the siege. While the 1st Marine Regiment attacked west from Ca Lu in an attempt to open up Route 9, U.S. Army and South Vietnamese units landed on either side of the road and began clearing the area around the base while the Marines from Khe Sanh attacked the hills where the North Vietnamese were located. The operation concluded on 15 April, ending the siege and reopening Route 9. The siege of Khe Sanh cost its defenders 205 killed and 1688 wounded while the enemy suffered over 10,000 dead. The attacking two NVA divisions were virtually destroyed and unable to participate in the forthcoming North Vietnamese Tet offensive.</p>',
+  // TODO: Change values of X and Y
   HOTSPOTS: [
     {
       id: 1,
-      X: 900,
-      Y: 400,
+      X: 450,
+      Y: 650,
       CONTENT:
-        'The Trace, also known as the Strong Point Obstacle System (SPOS) or McNamara’s Line, ran between Gio Linh and Con Thien. The SPOS consisted of a series of fortified bases from which sensors and surveillance devices were used to detect troop movement. ',
+        'During the siege, Khe Sanh Combat Base was constantly bombarded by rockets from hill sites. Marines constructed makeshift bunkers to protect themselves.',
+    },
+    {
+      id: 1,
+      X: 350,
+      Y: 490,
+      CONTENT:
+        'The Marines on Hill 861 faced an onslaught from the North Vietnamese. They were temporarily overrun shortly past midnight on 21 January, but took back the fire base by dawn with assistance from close air support',
+    },
+    {
+      id: 1,
+      X: 320,
+      Y: 360,
+      CONTENT:
+        'The Marines from Hill 881S could see the NVA’s three firing positions: Hill 881N, Area 305, and Co Roc Mountain. They warned Khe Sanh about incoming enemy fire and fired on those positions with mortars',
+    },
+    {
+      id: 1,
+      X: 690,
+      Y: 470,
+      CONTENT:
+        'The Lang Vei Special Forces Camp west of Khe Sanh was home to Green Berets and native Montagnard soldiers, who conducted border surveillance and area pacification operations. Early in the morning of 7 February, the NVA overran the camp using amphibious tanks. Later that day, Marine helicopters conducted an evacuation of the camp.',
     },
   ],
 };

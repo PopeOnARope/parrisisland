@@ -11,10 +11,31 @@ export const CON_THIEN = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 500,
+      Y: 550,
       CONTENT:
-        'The Trace, also known as the Strong Point Obstacle System (SPOS) or McNamara’s Line, ran between Gio Linh and Con Thien. The SPOS consisted of a series of fortified bases from which sensors and surveillance devices were used to detect troop movement. ',
+        'The Trace, also known as the Strong Point Obstacle System (SPOS) or McNamara’s Line, ran between Gio Linh and Con Thien. The SPOS consisted of a series of fortified bases from which sensors and surveillance devices were used to detect troop movement.',
+    },
+    {
+      id: 1,
+      X: 480,
+      Y: 350,
+      CONTENT:
+        'Con Thien, or “Hill of Angels,” was an important highpoint along the DMZ. It controlled the high ground and protected the logistical base at Dong Ha from enemy artillery fire. Marines spent months defending Con Thien.',
+    },
+    {
+      id: 1,
+      X: 680,
+      Y: 680,
+      CONTENT:
+        'Leatherneck Square was an area near the DMZ bounded by Con Thien, Cam Lo, Dong Ha and Gio Linh.',
+    },
+    {
+      id: 1,
+      X: 780,
+      Y: 780,
+      CONTENT:
+        'Dong Ha operated as a logistical center and helicopter base. If the NVA took Con Thien, they would have had a direct line of artillery fire at Dong Ha.',
     },
   ],
 };
