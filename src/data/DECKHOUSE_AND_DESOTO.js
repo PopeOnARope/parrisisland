@@ -20,21 +20,21 @@ export const DECKHOUSE_AND_DESOTO = {
         'The hamlet of Hai Mon proved to be one of the more difficult places to capture. From behind fortified rice dykes, the enemy laid down heavy crossfire on the Marines. After the first attempt to take the village, ground troops called in heavy naval gunfire and close air support.',
     },
     {
-      id: 1,
+      id: 2,
       X: 210,
       Y: 630,
       CONTENT:
         'Nui Dang was one of the strategic hills in the Duc Pho region from which the ARVN and the Marines conducted their operations to engage the Viet Cong.',
     },
     {
-      id: 1,
+      id: 3,
       X: 700,
       Y: 1030,
       CONTENT:
         'The salt flats were an important economic resource in Vietnam. Control of the area was significant for the Viet Cong and provided them with a source of income.',
     },
     {
-      id: 1,
+      id: 4,
       X: 790,
       Y: 930,
       CONTENT:

@@ -21,21 +21,21 @@ export const DEWEY_CANYON = {
         'In January 1969, the NVA established a depot along the border in South Vietnam, in preparation for a strike into the north central area of I Corps. The United States Command referred to this area of enemy concentration as Base Area 611.',
     },
     {
-      id: 1,
+      id: 2,
       X: 210,
       Y: 630,
       CONTENT:
         'The 9th Marines organized for Operation Dewey Canyon at Vandegrift Combat Base. The operation began on 18 January.',
     },
     {
-      id: 1,
+      id: 3,
       X: 700,
       Y: 1030,
       CONTENT:
         'As the Marines advanced south towards Base Area 611, they set up FSBs to support their movements. FSB Cunningham was one such position, complete with the regimental command post, field hospital and logistics support group.',
     },
     {
-      id: 1,
+      id: 4,
       X: 790,
       Y: 930,
       CONTENT:

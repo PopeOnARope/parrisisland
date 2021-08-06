@@ -19,28 +19,28 @@ export const DAI_DO = {
         'On 30 April, Navy Utility boat was attacked off the shore of the An Lac Hamlet. The attack prompted 2/4 BLT to investigate the Dai Do area.',
     },
     {
-      id: 1,
+      id: 2,
       X: 500,
       Y: 750,
       CONTENT:
         'The first day of fighting was particularly fearsome for Hotel and Foxtrot companies north of Dai Do. Marines reported being fired upon by the enemy at a range of less than two meters.',
     },
     {
-      id: 1,
+      id: 3,
       X: 700,
       Y: 800,
       CONTENT:
         'Bravo Company conducted an amphibious attack to relieve the pressure on troops north of the village. They suffered heavy casualties and lost their company commander within minutes of landing but were successful in securing a foothold and diverting enemy attention.',
     },
     {
-      id: 1,
+      id: 4,
       X: 600,
       Y: 550,
       CONTENT:
         'On 1 May, Golf Company reached the northern outskirts of Dai Do before being driven out and isolated by an NVA counterattack. The next morning, Echo Company’s entered the village from the south while Golf Company conducted its own attack into the village. Together the two companies secured Dai Do.',
     },
     {
-      id: 1,
+      id: 5,
       X: 100,
       Y: 100,
       CONTENT:

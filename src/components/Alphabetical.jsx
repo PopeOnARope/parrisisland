@@ -66,9 +66,10 @@ const Alphabetical = ({
             variant="sm"
             alignment={"left"}
             arrow="true"
-            onClick={() =>{
+            onClick={() => {
               debugger;
-              setCurrentScreen(getScreen(action.DIRECTS_TO))}}
+              setCurrentScreen(getScreen(action.DIRECTS_TO));
+            }}
           >
             {action.LABEL}
           </Button>

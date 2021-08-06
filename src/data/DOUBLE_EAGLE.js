@@ -20,7 +20,7 @@ export const DOUBLE_EAGLE = {
         'On 28 January, the battalion landing teams (BLT) 3d Battalion, 1st Regiment (3/1) and 2d Battalion, 4th Regiment (2/4) landed at Red Beach to begin operating along the coastline. 2d Battalion, 3d Regiment (2/3) remained aboard the ships. The weather made their landing difficult and delayed setting up the artillery and logistical support.',
     },
     {
-      id: 1,
+      id: 2,
       X: 270,
       Y: 720,
       CONTENT:

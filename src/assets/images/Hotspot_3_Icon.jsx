@@ -8,7 +8,6 @@ const Icon = (props) => (
     x="0px"
     y="0px"
     viewBox="0 0 72 72"
-    style="enable-background:new 0 0 72 72;"
     {...props}
   >
     <g>

@@ -18,14 +18,14 @@ export const HASTINGS_AND_PRAIRIE = {
         'Situated between Hills 200 and 208, the Ngan River valley became known as “Helicopter Valley” during Operation Hastings. On 15 July, penetration into the valley resulted in four Marine helicopter crashes. From that valley, Marines began their infiltration into the surrounding area.',
     },
     {
-      id: 1,
+      id: 2,
       X: 700,
       Y: 260,
       CONTENT:
         'The Rockpile was a strategically significant high point in the area of Operations Hastings and Prairie. The Marines used it as an observation post, artillery position and a resupply point for helicopters. In late August, it was threatened by NVA machine gun fire from a hill mass known as Razorback, directly to the Northwest of the Rockpile.  A treacherous operation to neutralize the gunfire ensued.',
     },
     {
-      id: 1,
+      id: 3,
       X: 820,
       Y: 510,
       CONTENT:

@@ -21,14 +21,14 @@ export const IMPERIAL_LAKE = {
         'On 5 September 1970, Marines encountered an NVA platoon in a secluded ravine. Protected by the steep slopes of the mountain and a system of caves, they held out under Marine attacks for four days. Once the Marines realized the NVA could not be dislodged without assistance, they ordered an aerial attack on the position.',
     },
     {
-      id: 1,
+      id: 2,
       X: 900,
       Y: 400,
       CONTENT:
         'On 16 September 1970, Marines located a large underground complex outfitted with a kitchen and hospital at the base of Hill 645, directly below their command post at LZ Vulture.',
     },
     {
-      id: 1,
+      id: 3,
       X: 900,
       Y: 400,
       CONTENT:

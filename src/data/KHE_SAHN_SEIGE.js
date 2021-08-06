@@ -20,21 +20,21 @@ export const KHE_SAHN_SEIGE = {
         'During the siege, Khe Sanh Combat Base was constantly bombarded by rockets from hill sites. Marines constructed makeshift bunkers to protect themselves.',
     },
     {
-      id: 1,
+      id: 2,
       X: 350,
       Y: 490,
       CONTENT:
         'The Marines on Hill 861 faced an onslaught from the North Vietnamese. They were temporarily overrun shortly past midnight on 21 January, but took back the fire base by dawn with assistance from close air support',
     },
     {
-      id: 1,
+      id: 3,
       X: 320,
       Y: 360,
       CONTENT:
         'The Marines from Hill 881S could see the NVA’s three firing positions: Hill 881N, Area 305, and Co Roc Mountain. They warned Khe Sanh about incoming enemy fire and fired on those positions with mortars',
     },
     {
-      id: 1,
+      id: 4,
       X: 690,
       Y: 470,
       CONTENT:

@@ -18,14 +18,14 @@ export const KHE_SAHN_HILL_FIGHTS = {
         'Hills 881N, 881S and 861 were the scenes of conflict during the hill fights. By 5 May, the hills were secured. Close air support played an important role in supporting the Marines against the divisional strength of the North Vietnamese.',
     },
     {
-      id: 1,
+      id: 2,
       X: 450,
       Y: 650,
       CONTENT:
         'The garrisoning of the Khe Sanh Combat Base and other posts along the Demilitarized Zone by the Marines was a major change in the United States military policy in Vietnam. Instead of carrying out their usual search and destroy missions the Marines were placed in static defensive positions where they found themselves subjected to constant enemy attacks.',
     },
     {
-      id: 1,
+      id: 3,
       X: 550,
       Y: 900,
       CONTENT:
