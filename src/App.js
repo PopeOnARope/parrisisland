@@ -43,10 +43,17 @@ function App() {
       )}
       {[
         'CON_THIEN',
-        'DECKHOUSE_AND_DESOTO',
         'DAI_DO',
+        'DECKHOUSE_AND_DESOTO',
+        'DOUBLE_EAGLE',
+        'HARVEST_MOON',
+        'HASTINGS_AND_PRAIRIE',
+        'IMPERIAL_LAKE',
         'KHE_SAHN_HILL_FIGHTS',
         'KHE_SAHN_SEIGE',
+        'STARLITE',
+        'TAYLOR_COMMON',
+        'TET_OFFENSE',
       ].indexOf(currentScreen.NAME) > -1 && (
         <Battle
           setCurrentScreen={setCurrentScreen}

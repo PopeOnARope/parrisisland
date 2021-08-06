@@ -13,36 +13,36 @@ export const DAI_DO = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 900,
-      Y: 400,
+      X: 800,
+      Y: 780,
       CONTENT:
         'On 30 April, Navy Utility boat was attacked off the shore of the An Lac Hamlet. The attack prompted 2/4 BLT to investigate the Dai Do area.',
     },
     {
-      id: 2,
-      X: 900,
-      Y: 400,
+      id: 1,
+      X: 500,
+      Y: 750,
       CONTENT:
         'The first day of fighting was particularly fearsome for Hotel and Foxtrot companies north of Dai Do. Marines reported being fired upon by the enemy at a range of less than two meters.',
     },
     {
       id: 1,
-      X: 900,
-      Y: 400,
+      X: 700,
+      Y: 800,
       CONTENT:
         'Bravo Company conducted an amphibious attack to relieve the pressure on troops north of the village. They suffered heavy casualties and lost their company commander within minutes of landing but were successful in securing a foothold and diverting enemy attention.',
     },
     {
       id: 1,
-      X: 900,
-      Y: 400,
+      X: 600,
+      Y: 550,
       CONTENT:
         'On 1 May, Golf Company reached the northern outskirts of Dai Do before being driven out and isolated by an NVA counterattack. The next morning, Echo Company’s entered the village from the south while Golf Company conducted its own attack into the village. Together the two companies secured Dai Do.',
     },
     {
-      id: 5,
-      X: 900,
-      Y: 400,
+      id: 1,
+      X: 100,
+      Y: 100,
       CONTENT:
         "On 2 May, after an initial movement had been turned back, BLT 2/4 and South Vietnamese Forces, separated by a creek, launch a second attack from Dai Do heading northwest. During the assault, the Marines begin receiving enemy fire from their left flank and rear due to the departure of the South Vietnamese. The enemy's firepower forced them to retreat back to Dai Do. They remained in the hamlet overnight and when they woke up the next morning, the enemy was gone. The battle was over.",
     },

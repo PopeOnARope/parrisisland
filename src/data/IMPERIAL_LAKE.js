@@ -15,13 +15,13 @@ export const IMPERIAL_LAKE = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 900,
-      Y: 400,
+      X: 400,
+      Y: 200,
       CONTENT:
         'On 5 September 1970, Marines encountered an NVA platoon in a secluded ravine. Protected by the steep slopes of the mountain and a system of caves, they held out under Marine attacks for four days. Once the Marines realized the NVA could not be dislodged without assistance, they ordered an aerial attack on the position.',
     },
     {
-      id: 2,
+      id: 1,
       X: 900,
       Y: 400,
       CONTENT:

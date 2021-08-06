@@ -1,27 +1,53 @@
-import { CON_THIEN } from './CON_THIEN';
-import { DECKHOUSE_AND_DESOTO } from './DECKHOUSE_AND_DESOTO';
-import { HOME } from './HOME';
 import { ALPHABETICAL_OPERATIONS } from './ALPHABETICAL_OPERATIONS';
 import { ALPHABETICAL_BATTLES } from './ALPHABETICAL_BATTLES';
+import { CON_THIEN } from './CON_THIEN';
 import { DAI_DO } from './DAI_DO';
+import { DECKHOUSE_AND_DESOTO } from './DECKHOUSE_AND_DESOTO';
+import { DOUBLE_EAGLE } from './DOUBLE_EAGLE';
+import { HARVEST_MOON } from './HARVEST_MOON';
+import { HASTINGS_AND_PRAIRIE } from './HASTINGS_AND_PRAIRIE';
+import { HOME } from './HOME';
+import { IMPERIAL_LAKE } from './IMPERIAL_LAKE';
 import { KHE_SAHN_HILL_FIGHTS } from './KHE_SAHN_HILL_FIGHTS';
 import { KHE_SAHN_SEIGE } from './KHE_SAHN_SEIGE';
-import { DOUBLE_EAGLE } from './DOUBLE_EAGLE';
+import { STARLITE } from './STARLITE';
+import { TAYLOR_COMMON } from './TAYLOR_COMMON';
+import { TET_OFFENSE } from './TET_OFFENSE';
+import { DEWEY_CANYON } from './DEWEY_CANYON';
 
 export const screens = [
   { ...HOME },
   { ...ALPHABETICAL_OPERATIONS },
   { ...ALPHABETICAL_BATTLES },
-  { ...DECKHOUSE_AND_DESOTO },
-  { ...DOUBLE_EAGLE },
-  { ...DAI_DO },
   { ...CON_THIEN },
+  { ...DAI_DO },
+  { ...DECKHOUSE_AND_DESOTO },
+  { ...DEWEY_CANYON },
+  { ...DOUBLE_EAGLE },
+  { ...HARVEST_MOON },
+  { ...HASTINGS_AND_PRAIRIE },
+  { ...IMPERIAL_LAKE },
   { ...KHE_SAHN_HILL_FIGHTS },
   { ...KHE_SAHN_SEIGE },
+  { ...STARLITE },
+  { ...TAYLOR_COMMON },
+  { ...TET_OFFENSE },
 ];
 
 export const flows = {
-  ALPHABETICAL_OPERATIONS: [],
+  ALPHABETICAL_OPERATIONS: [
+    { ...DECKHOUSE_AND_DESOTO },
+    { ...DEWEY_CANYON },
+    { ...DOUBLE_EAGLE },
+    { ...HARVEST_MOON },
+    { ...HASTINGS_AND_PRAIRIE },
+    { ...IMPERIAL_LAKE },
+    { ...STARLITE },
+    { ...TAYLOR_COMMON },
+  ].map((battle) => ({
+    ...battle,
+    PREVIOUS_SCREEN: 'ALPHABETICAL_OPERATIONS',
+  })),
   ALPHABETICAL_BATTLES: [
     { ...CON_THIEN },
     { ...DAI_DO },

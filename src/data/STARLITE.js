@@ -12,22 +12,22 @@ export const STARLITE = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 320,
+      Y: 380,
       CONTENT:
         'Company M of 3d Battalion, 3d Regiment (3/3) travelled over land from the north, using LVTs to block the northern escape.',
     },
     {
-      id: 2,
-      X: 700,
-      Y: 800,
+      id: 1,
+      X: 860,
+      Y: 370,
       CONTENT:
         'Three companies of the 4th Marines landed in three different locations west of the peninsula via helicopter. Company H deploying at Landing Zone Blue and found itself in the midst of the Viet Cong positions.',
     },
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 750,
+      Y: 850,
       CONTENT:
         'The remainder of 3/3 and elements of the 7th Marines made an amphibious landing at Green Beach and began driving inland, where they encountered heavy resistance.',
     },

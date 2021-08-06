@@ -14,15 +14,15 @@ export const DOUBLE_EAGLE = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 350,
+      Y: 320,
       CONTENT:
         'On 28 January, the battalion landing teams (BLT) 3d Battalion, 1st Regiment (3/1) and 2d Battalion, 4th Regiment (2/4) landed at Red Beach to begin operating along the coastline. 2d Battalion, 3d Regiment (2/3) remained aboard the ships. The weather made their landing difficult and delayed setting up the artillery and logistical support.',
     },
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 270,
+      Y: 720,
       CONTENT:
         'Beginning on 1 February and following the B-52 bombing strikes against the valley, helicopters transported 2d Battalion, 7th Regiment (2/7), 2d Battalion, 9th Regiment (2/9) and 2d Battalion, 3d Regiment 2/3 into the valley and began sweeping the area for remaining Viet Cong.',
     },

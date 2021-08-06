@@ -13,28 +13,28 @@ export const HARVEST_MOON = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 550,
+      Y: 620,
       CONTENT:
         'The Phouc Ha Valley was notorious as a site of Viet Cong operations, heavily forested and hard to navigate. Prior to the Marine assault, B-52F Stratofortresses dropped bombs on the valley for two days.',
     },
     {
-      id: 2,
-      X: 700,
-      Y: 800,
+      id: 1,
+      X: 370,
+      Y: 530,
       CONTENT:
         'Que Son was a strategic location which, if captured, would have given the Viet Cong more control over the valley. It served as one of the command posts for Task Force Delta during Harvest Moon.',
     },
     {
       id: 1,
-      X: 700,
-      Y: 800,
+      X: 530,
+      Y: 300,
       CONTENT:
         'The capture of Hiep Duc by the 1st Viet Cong regiment allowed the enemy access to the populous countryside. It prompted the recovery effort of Operation Harvest Moon to prevent Que Son from falling.',
     },
     {
       id: 1,
-      X: 700,
+      X: 580,
       Y: 800,
       CONTENT:
         'Ky Phu was the site of the last major engagement of Harvest Moon as 2/7 swept eastward. The Viet Cong took advantage of the growing distance between companies and attacked two that fell behind. The Marines prevailed, defeating the ambush and reaching Tam Ky to complete the operation.',
