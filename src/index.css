@@ -80,5 +80,9 @@ code {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.battle-content p {
+margin-bottom: 12px;
+}
 /*@tailwind utilities {*/
 /*}*/

@@ -84,7 +84,7 @@ const Battle = ({
           {currentScreen.DATES}
         </h2>
         <div
-          className="w-full p-20 pt-0"
+          className="w-full p-20 pt-0 battle-content"
           dangerouslySetInnerHTML={{ __html: currentScreen.CONTENT }}
         ></div>
       </div>

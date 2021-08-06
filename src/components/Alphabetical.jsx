@@ -13,7 +13,7 @@ const Alphabetical = ({
 }) => {
   return (
     <div
-      className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row justify-end"
+      className="w-full h-full bg-gray-600 flex flex-row justify-end"
       style={{
         backgroundRepeat: "none",
         background: `url(${
