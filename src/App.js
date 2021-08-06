@@ -44,7 +44,6 @@ function App() {
       {[
         'CON_THIEN',
         'DAI_DO',
-        'DECKHOUSE_AND_DESOTO',
         'DOUBLE_EAGLE',
         'HARVEST_MOON',
         'HASTINGS_AND_PRAIRIE',
