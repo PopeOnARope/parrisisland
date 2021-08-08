@@ -3,6 +3,7 @@ import Button from "./Button";
 
 import { getScreen, screens } from "../data";
 import BackButton from "./BackButton";
+import ReturnButton from "./ReturnButton";
 
 const Alphabetical = ({
   setCurrentScreen,
@@ -22,7 +23,12 @@ const Alphabetical = ({
         backgroundSize: "cover",
       }}
     >
-      <div className="h-full w-full flex flex-col justify-end pl-0 pb-16">
+      <div className="h-full w-full flex flex-col justify-between pl-0 pb-16">
+        <ReturnButton
+          onClick={() => {
+            setCurrentScreen(getScreen("HOME"));
+          }}
+        />
         <BackButton
           onClick={() => {
             setCurrentScreen(getScreen("HOME"));
@@ -33,16 +39,16 @@ const Alphabetical = ({
       <div className="flex flex-col mt-36 mr-48">
         {currentScreen.BATTLES.map((battle, idx) => (
           <Button
-            color={idx % 2 === 0 ? "GREEN" : "YELLOW"}
-            variant="lg"
+            COLOR={idx % 2 === 0 ? "GREEN" : "YELLOW"}
+            variant="sm"
             alignment={"left"}
             arrow="true"
             onClick={() => {
-              setCurrentFlow('CHRONOLOGICAL_BATTLES')
+              setCurrentFlow("CHRONOLOGICAL_BATTLES");
               setCurrentScreen(battle);
             }}
           >
-            {battle.NAME}
+            {battle.TITLE.toUpperCase()}
           </Button>
         ))}
       </div>

@@ -36,10 +36,35 @@ export const screens = [
   { ...CHRONOLOGICAL },
 ];
 
+const CHRONOLOGICAL_BATTLES= [
+  { ...HARVEST_MOON },
+  { ...HASTINGS_AND_PRAIRIE },
+  { ...STARLITE },
+  { ...DOUBLE_EAGLE },
+  { ...DECKHOUSE_AND_DESOTO },
+  { ...DEWEY_CANYON },
+  { ...CON_THIEN },
+  { ...KHE_SAHN_HILL_FIGHTS },
+  { ...TAYLOR_COMMON },
+  { ...KHE_SAHN_SEIGE },
+  { ...DAI_DO },
+].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'CHRONOLOGICAL' }))
+
 export const years = ['1965', '1966', '1967', '1968', '1969', '1970s'].map(
   (year) => ({
     NAME: year,
-    BATTLES: screens.filter((screen) => screen.YEAR === year),
+    BATTLES: CHRONOLOGICAL_BATTLES.filter((screen) => {
+      if (year !== '1970s') {
+        return screen.YEAR === year;
+      } else {
+        return (
+          screen.YEAR === '1970' ||
+          screen.YEAR === '1971' ||
+          screen.YEAR === '1972' ||
+          screen.YEAR === '1973'
+        );
+      }
+    }),
   })
 );
 
@@ -64,19 +89,7 @@ export const flows = {
     { ...KHE_SAHN_SEIGE },
   ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'ALPHABETICAL_BATTLES' })),
   CHRONOLOGICAL: [...years],
-  CHRONOLOGICAL_BATTLES: [
-    { ...DECKHOUSE_AND_DESOTO },
-    { ...DEWEY_CANYON },
-    { ...DOUBLE_EAGLE },
-    { ...HASTINGS_AND_PRAIRIE },
-    { ...HARVEST_MOON },
-    { ...STARLITE },
-    { ...TAYLOR_COMMON },
-    { ...CON_THIEN },
-    { ...DAI_DO },
-    { ...KHE_SAHN_HILL_FIGHTS },
-    { ...KHE_SAHN_SEIGE },
-  ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'CHRONOLOGICAL' })),
+ CHRONOLOGICAL_BATTLES,
 };
 
 export const getScreen = (str) => screens.find((screen) => screen.NAME === str);

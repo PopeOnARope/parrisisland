@@ -1,7 +1,7 @@
 export const STARLITE = {
   NAME: 'STARLITE',
   YEAR: '1965',
-  TITLE: '1.	Operation Starlite',
+  TITLE: 'Operation Starlite',
   BACKGROUND: 'STARLITE',
   DATES: 'August 18 - 19 1965',
   CONTENT:

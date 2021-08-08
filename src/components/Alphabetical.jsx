@@ -67,7 +67,6 @@ const Alphabetical = ({
             alignment={"left"}
             arrow="true"
             onClick={() => {
-              debugger;
               setCurrentScreen(getScreen(action.DIRECTS_TO));
             }}
           >
