@@ -1,4 +1,4 @@
-import {DECKHOUSE_AND_DESOTO} from './constants'
+import { DECKHOUSE_AND_DESOTO } from './constants';
 
 export const ALPHABETICAL_OPERATIONS = {
   NAME: 'ALPHABETICAL_OPERATIONS',

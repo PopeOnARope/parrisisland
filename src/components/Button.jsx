@@ -16,6 +16,18 @@ const Button = ({
   COLOR,
   ...rest
 }) => {
+  if (variant === "yr") {
+    return (
+      <button
+        className={`gradient-${COLOR} text-white p-6 py-2 text-6xl inline-flex justify-end items-center square ml-4`}
+        style={{ width: "400px", marginBottom: "26px" }}
+        onClick={onClick}
+      >
+        {children}
+        {arrow && <DoubleArrow height="90px" />}
+      </button>
+    );
+  }
   return (
     <button
       className={`${

@@ -77,9 +77,15 @@ const Battle = ({
             />
           </button>
         </div>
-        <div className='w-full bg-yellow border-t-4 border-b-4 border-black flex flex-col align-items-center text-5xl p-2 square mb-5'>{currentScreen.YEAR}</div>
-        <h1 className="text-center ven mb-1 text-uppercase" style={{fontSize: '28px',
-          fontWeight: 800}}>{currentScreen.TITLE}</h1>
+        <div className="w-full bg-yellow border-t-4 border-b-4 border-black flex flex-col align-items-center text-5xl p-2 square mb-5">
+          {currentScreen.YEAR}
+        </div>
+        <h1
+          className="text-center ven mb-1 text-uppercase"
+          style={{ fontSize: "28px", fontWeight: 800 }}
+        >
+          {currentScreen.TITLE}
+        </h1>
         <h2 className="text-center calibri text-lg mb-5">
           {currentScreen.DATES}
         </h2>

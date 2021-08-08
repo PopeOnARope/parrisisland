@@ -2,23 +2,11 @@ import './index.css';
 import React from 'react';
 import Home from './components/Home';
 import { getScreen, screens } from './data';
-import {
-  CON_THIEN,
-  DAI_DO,
-  DOUBLE_EAGLE,
-  HARVEST_MOON,
-  HASTINGS_AND_PRAIRIE,
-  IMPERIAL_LAKE,
-  KHE_SAHN_HILL_FIGHTS,
-  KHE_SAHN_SEIGE,
-  STARLITE,
-  TAYLOR_COMMON,
-  TET_OFFENSE,
-  DEWEY_CANYON,
-  DECKHOUSE_AND_DESOTO
-} from './data/constants';
+import {} from './data/constants';
 import Alphabetical from './components/Alphabetical';
 import Battle from './components/Battle';
+import Chronological from './components/Chronological';
+import Year from './components/Year';
 
 const initialState = {
   CURRENT_SCREEN: getScreen('HOME'),
@@ -53,22 +41,40 @@ function App() {
           currentFlow={currentFlow}
         />
       )}
+      {currentScreen.NAME === 'CHRONOLOGICAL' && (
+        <Chronological
+          setCurrentScreen={setCurrentScreen}
+          setCurrentFlow={setCurrentFlow}
+          currentScreen={currentScreen}
+          currentFlow={currentFlow}
+        />
+      )}
       {[
-        CON_THIEN,
-        DAI_DO,
-        DOUBLE_EAGLE,
-        HARVEST_MOON,
-        HASTINGS_AND_PRAIRIE,
-        IMPERIAL_LAKE,
-        KHE_SAHN_HILL_FIGHTS,
-        KHE_SAHN_SEIGE,
-        STARLITE,
-        TAYLOR_COMMON,
-        TET_OFFENSE,
-        DEWEY_CANYON,
-        DECKHOUSE_AND_DESOTO
+        'CON_THIEN',
+        'DAI_DO',
+        'DOUBLE_EAGLE',
+        'HARVEST_MOON',
+        'HASTINGS_AND_PRAIRIE',
+        'IMPERIAL_LAKE',
+        'KHE_SAHN_HILL_FIGHTS',
+        'KHE_SAHN_SEIGE',
+        'STARLITE',
+        'TAYLOR_COMMON',
+        'TET_OFFENSE',
+        'DEWEY_CANYON',
+        'DECKHOUSE_AND_DESOTO',
       ].indexOf(currentScreen.NAME) > -1 && (
         <Battle
+          setCurrentScreen={setCurrentScreen}
+          setCurrentFlow={setCurrentFlow}
+          currentScreen={currentScreen}
+          currentFlow={currentFlow}
+        />
+      )}
+      {['1965', '1966', '1967', '1968', '1969', '1970s'].indexOf(
+        currentScreen.NAME
+      ) > -1 && (
+        <Year
           setCurrentScreen={setCurrentScreen}
           setCurrentFlow={setCurrentFlow}
           currentScreen={currentScreen}

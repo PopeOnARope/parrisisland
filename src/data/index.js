@@ -14,6 +14,7 @@ import { STARLITE } from './STARLITE';
 import { TAYLOR_COMMON } from './TAYLOR_COMMON';
 import { TET_OFFENSE } from './TET_OFFENSE';
 import { DEWEY_CANYON } from './DEWEY_CANYON';
+import { CHRONOLOGICAL } from './CHRONOLOGICAL';
 
 export const screens = [
   { ...HOME },
@@ -32,7 +33,15 @@ export const screens = [
   { ...STARLITE },
   { ...TAYLOR_COMMON },
   { ...TET_OFFENSE },
+  { ...CHRONOLOGICAL },
 ];
+
+export const years = ['1965', '1966', '1967', '1968', '1969', '1970s'].map(
+  (year) => ({
+    NAME: year,
+    BATTLES: screens.filter((screen) => screen.YEAR === year),
+  })
+);
 
 export const flows = {
   ALPHABETICAL_OPERATIONS: [
@@ -54,12 +63,28 @@ export const flows = {
     { ...KHE_SAHN_HILL_FIGHTS },
     { ...KHE_SAHN_SEIGE },
   ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'ALPHABETICAL_BATTLES' })),
-  CHRONOLOGICAL: [],
+  CHRONOLOGICAL: [...years],
+  CHRONOLOGICAL_BATTLES: [
+    { ...DECKHOUSE_AND_DESOTO },
+    { ...DEWEY_CANYON },
+    { ...DOUBLE_EAGLE },
+    { ...HASTINGS_AND_PRAIRIE },
+    { ...HARVEST_MOON },
+    { ...STARLITE },
+    { ...TAYLOR_COMMON },
+    { ...CON_THIEN },
+    { ...DAI_DO },
+    { ...KHE_SAHN_HILL_FIGHTS },
+    { ...KHE_SAHN_SEIGE },
+  ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'CHRONOLOGICAL' })),
 };
 
 export const getScreen = (str) => screens.find((screen) => screen.NAME === str);
+
 export const getScreenFromFlow = ({ flow, str }) => {
   const v = flows[flow].find((screen) => screen.NAME === str);
   console.log({ v });
   return v;
 };
+
+export const getYear = (str) => years.find((year) => year.NAME === str);

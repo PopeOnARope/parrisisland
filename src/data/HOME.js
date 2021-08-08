@@ -9,7 +9,7 @@ export const HOME = {
     },
     {
       LABEL: 'TIMELINE',
-      DIRECTS_TO: 'TIMELINE',
+      DIRECTS_TO: 'CHRONOLOGICAL',
       COLOR: 'GREEN',
     },
   ],
