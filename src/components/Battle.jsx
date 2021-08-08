@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 import { getScreen, getScreenFromFlow, screens, flows } from "../data";
-import DoubleArrow from "../assets/images/DoubleArrow";
+import DoubleArrow from "../assets/icons/DoubleArrow";
 import HotSpot from "./HotSpot";
 import CloseButton from "./CloseButton";
 

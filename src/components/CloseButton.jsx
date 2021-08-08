@@ -1,5 +1,5 @@
 import React from "react";
-import ExitIcon from "../assets/images/Exit_Icon";
+import ExitIcon from "../assets/icons/Exit_Icon";
 
 const CloseButton = ({ onClick }) => (
   <button

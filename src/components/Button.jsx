@@ -1,5 +1,5 @@
 import React from "react";
-import DoubleArrow from "../assets/images/DoubleArrow";
+import DoubleArrow from "../assets/icons/DoubleArrow";
 
 const sizes = {
   lg: "p-6 text-6xl",

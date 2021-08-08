@@ -1,5 +1,5 @@
 import React from "react";
-import DoubleArrow from "../assets/images/DoubleArrow";
+import DoubleArrow from "../assets/icons/DoubleArrow";
 
 const Button = ({
   onClick,

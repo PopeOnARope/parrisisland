@@ -2,11 +2,11 @@ import React from "react";
 import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Hotspot_1_Icon from "../assets/images/Hotspot_1_Icon";
-import Hotspot_2_Icon from "../assets/images/Hotspot_2_Icon";
-import Hotspot_3_Icon from "../assets/images/Hotspot_3_Icon";
-import Hotspot_4_Icon from "../assets/images/Hotspot_4_Icon";
-import Hotspot_5_Icon from "../assets/images/Hotspot_5_Icon";
+import Hotspot_1_Icon from "../assets/icons/Hotspot_1_Icon";
+import Hotspot_2_Icon from "../assets/icons/Hotspot_2_Icon";
+import Hotspot_3_Icon from "../assets/icons/Hotspot_3_Icon";
+import Hotspot_4_Icon from "../assets/icons/Hotspot_4_Icon";
+import Hotspot_5_Icon from "../assets/icons/Hotspot_5_Icon";
 
 const Icons = {
   1: Hotspot_1_Icon,

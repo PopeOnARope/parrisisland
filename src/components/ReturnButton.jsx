@@ -1,6 +1,6 @@
 import React from "react";
-import DoubleArrow from "../assets/images/DoubleArrow";
-import Refresh from "../assets/images/Refresh";
+import DoubleArrow from "../assets/icons/DoubleArrow";
+import Refresh from "../assets/icons/Refresh";
 
 const Button = ({
   onClick,
