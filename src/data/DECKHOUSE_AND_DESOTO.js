@@ -1,7 +1,7 @@
 export const DECKHOUSE_AND_DESOTO = {
   NAME: 'DECKHOUSE_AND_DESOTO',
   YEAR: '1967',
-  TITLE: 'Operation Deckhouse and Desoto',
+  TITLE: 'Operations Deckhouse and Desoto',
   BACKGROUND: 'DECKHOUSE_AND_DESOTO',
   DATES: 'January 27, 1967 - Apr 7, 1967',
   CONTENT:

@@ -14,29 +14,29 @@ export const DEWEY_CANYON = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 190,
-      Y: 730,
+      X: 950,
+      Y: 580,
       CONTENT:
         'In January 1969, the NVA established a depot along the border in South Vietnam, in preparation for a strike into the north central area of I Corps. The United States Command referred to this area of enemy concentration as Base Area 611.',
     },
     {
       id: 2,
-      X: 210,
-      Y: 630,
+      X: 270,
+      Y: 400,
       CONTENT:
         'The 9th Marines organized for Operation Dewey Canyon at Vandegrift Combat Base. The operation began on 18 January.',
     },
     {
       id: 3,
       X: 700,
-      Y: 1030,
+      Y: 680,
       CONTENT:
         'As the Marines advanced south towards Base Area 611, they set up FSBs to support their movements. FSB Cunningham was one such position, complete with the regimental command post, field hospital and logistics support group.',
     },
     {
       id: 4,
-      X: 790,
-      Y: 930,
+      X: 810,
+      Y: 540,
       CONTENT:
         'On 21 February, Marines crossed into Laos along Route 922, the main supply road for Base Area 611. While the movement into Laos was supposed to be kept top secret, the border crossing eventually became public and was a source of controversy for years to come.',
     },

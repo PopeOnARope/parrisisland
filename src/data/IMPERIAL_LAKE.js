@@ -15,22 +15,22 @@ export const IMPERIAL_LAKE = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 400,
-      Y: 200,
+      X: 680,
+      Y: 450,
       CONTENT:
         'On 5 September 1970, Marines encountered an NVA platoon in a secluded ravine. Protected by the steep slopes of the mountain and a system of caves, they held out under Marine attacks for four days. Once the Marines realized the NVA could not be dislodged without assistance, they ordered an aerial attack on the position.',
     },
     {
       id: 2,
-      X: 900,
-      Y: 400,
+      X: 780,
+      Y: 520,
       CONTENT:
         'On 16 September 1970, Marines located a large underground complex outfitted with a kitchen and hospital at the base of Hill 645, directly below their command post at LZ Vulture.',
     },
     {
       id: 3,
-      X: 900,
-      Y: 400,
+      X: 860,
+      Y: 600,
       CONTENT:
         'To challenge Viet Cong activity, Marine planners devised a new plan of operations in the Que Son region. Starting on 18 October, continuous infantry patrols were supplemented by six to ten Quick Reaction Forces (QRFs). The QRFs were dispatched when a patrol made contact with enemy troops, with the intention of catching and eliminating hostile forces that had evaded capture up to that point.',
     },
