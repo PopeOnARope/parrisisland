@@ -57,7 +57,7 @@ function App() {
         'HASTINGS_AND_PRAIRIE',
         'IMPERIAL_LAKE',
         'KHE_SAHN_HILL_FIGHTS',
-        'KHE_SAHN_SEIGE',
+        'KHE_SAHN_SIEGE',
         'STARLITE',
         'TAYLOR_COMMON',
         'TET_OFFENSE',

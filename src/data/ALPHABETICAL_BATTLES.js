@@ -13,13 +13,13 @@ export const ALPHABETICAL_BATTLES = {
       COLOR: 'YELLOW',
     },
     {
-      LABEL: 'KHE SANH - HILL FIGHTS',
+      LABEL: 'FIRST BATTLE OF KHE SANH',
       DIRECTS_TO: 'KHE_SAHN_HILL_FIGHTS',
       COLOR: 'YELLOW',
     },
     {
-      LABEL: 'SEIGE OF KHE SANH',
-      DIRECTS_TO: 'KHE_SAHN_SEIGE',
+      LABEL: 'SIEGE OF KHE SANH',
+      DIRECTS_TO: 'KHE_SAHN_SIEGE',
       COLOR: 'YELLOW',
     },
   ],

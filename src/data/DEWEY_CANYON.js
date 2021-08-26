@@ -11,7 +11,6 @@ export const DEWEY_CANYON = {
     '<p>Once through the Da Krong Valley, Phase Three began with the Marines attacking Base Area 611, rotating companies to support the offensive. As they approached Laos, the Marines were granted permission by higher U.S. officials to cross the border to cut the North Vietnamese supply route. This was the first time during the war that United States troops entered Laos. The Marines continued their sweep through Base Area 611, along the border, and into Laos until 1 March, when they began a withdrawal that ended Dewey Canyon on 18 March.</p>\n' +
     '<p>Operation Dewey Canyon resulted in the destruction of hundreds of tons of weapons and munitions, and the capture of 16 artillery pieces, 73 anti-aircraft guns, 93 trucks and over 220,000 tons of rice. For seven weeks, the Marines operated 50 kilometers from their nearest base and continuously engaged the enemy.  They lost 130 killed, 920 wounded and one captured while the North Vietnamese suffered 1,617 killed. The operation also blocked NVA resupply and infiltration routes and pre-empted a major NVA spring offensive.</p>',
 
-  // TODO: Replace X and Y
   HOTSPOTS: [
     {
       id: 1,

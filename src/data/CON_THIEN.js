@@ -18,8 +18,8 @@ export const CON_THIEN = {
     },
     {
       id: 2,
-      X: 480,
-      Y: 350,
+      X: 570,
+      Y: 440,
       CONTENT:
         'Con Thien, or “Hill of Angels,” was an important highpoint along the DMZ. It controlled the high ground and protected the logistical base at Dong Ha from enemy artillery fire. Marines spent months defending Con Thien.',
     },

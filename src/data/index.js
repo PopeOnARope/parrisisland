@@ -9,7 +9,7 @@ import { HASTINGS_AND_PRAIRIE } from './HASTINGS_AND_PRAIRIE';
 import { HOME } from './HOME';
 import { IMPERIAL_LAKE } from './IMPERIAL_LAKE';
 import { KHE_SAHN_HILL_FIGHTS } from './KHE_SAHN_HILL_FIGHTS';
-import { KHE_SAHN_SEIGE } from './KHE_SAHN_SEIGE';
+import { KHE_SAHN_SIEGE } from './KHE_SAHN_SIEGE';
 import { STARLITE } from './STARLITE';
 import { TAYLOR_COMMON } from './TAYLOR_COMMON';
 import { TET_OFFENSE } from './TET_OFFENSE';
@@ -29,14 +29,14 @@ export const screens = [
   { ...HASTINGS_AND_PRAIRIE },
   { ...IMPERIAL_LAKE },
   { ...KHE_SAHN_HILL_FIGHTS },
-  { ...KHE_SAHN_SEIGE },
+  { ...KHE_SAHN_SIEGE },
   { ...STARLITE },
   { ...TAYLOR_COMMON },
   { ...TET_OFFENSE },
   { ...CHRONOLOGICAL },
 ];
 
-const CHRONOLOGICAL_BATTLES= [
+const CHRONOLOGICAL_BATTLES = [
   { ...HARVEST_MOON },
   { ...HASTINGS_AND_PRAIRIE },
   { ...STARLITE },
@@ -46,9 +46,9 @@ const CHRONOLOGICAL_BATTLES= [
   { ...CON_THIEN },
   { ...KHE_SAHN_HILL_FIGHTS },
   { ...TAYLOR_COMMON },
-  { ...KHE_SAHN_SEIGE },
+  { ...KHE_SAHN_SIEGE },
   { ...DAI_DO },
-].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'CHRONOLOGICAL' }))
+].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'CHRONOLOGICAL' }));
 
 export const years = ['1965', '1966', '1967', '1968', '1969', '1970s'].map(
   (year) => ({
@@ -86,10 +86,10 @@ export const flows = {
     { ...CON_THIEN },
     { ...DAI_DO },
     { ...KHE_SAHN_HILL_FIGHTS },
-    { ...KHE_SAHN_SEIGE },
+    { ...KHE_SAHN_SIEGE },
   ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'ALPHABETICAL_BATTLES' })),
   CHRONOLOGICAL: [...years],
- CHRONOLOGICAL_BATTLES,
+  CHRONOLOGICAL_BATTLES,
 };
 
 export const getScreen = (str) => screens.find((screen) => screen.NAME === str);
