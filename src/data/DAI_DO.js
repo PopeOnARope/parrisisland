@@ -41,8 +41,8 @@ export const DAI_DO = {
     },
     {
       id: 5,
-      X: 100,
-      Y: 100,
+      X: 620,
+      Y: 300,
       CONTENT:
         "On 2 May, after an initial movement had been turned back, BLT 2/4 and South Vietnamese Forces, separated by a creek, launch a second attack from Dai Do heading northwest. During the assault, the Marines begin receiving enemy fire from their left flank and rear due to the departure of the South Vietnamese. The enemy's firepower forced them to retreat back to Dai Do. They remained in the hamlet overnight and when they woke up the next morning, the enemy was gone. The battle was over.",
     },

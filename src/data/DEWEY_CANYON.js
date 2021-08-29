@@ -11,33 +11,32 @@ export const DEWEY_CANYON = {
     '<p>Once through the Da Krong Valley, Phase Three began with the Marines attacking Base Area 611, rotating companies to support the offensive. As they approached Laos, the Marines were granted permission by higher U.S. officials to cross the border to cut the North Vietnamese supply route. This was the first time during the war that United States troops entered Laos. The Marines continued their sweep through Base Area 611, along the border, and into Laos until 1 March, when they began a withdrawal that ended Dewey Canyon on 18 March.</p>\n' +
     '<p>Operation Dewey Canyon resulted in the destruction of hundreds of tons of weapons and munitions, and the capture of 16 artillery pieces, 73 anti-aircraft guns, 93 trucks and over 220,000 tons of rice. For seven weeks, the Marines operated 50 kilometers from their nearest base and continuously engaged the enemy.  They lost 130 killed, 920 wounded and one captured while the North Vietnamese suffered 1,617 killed. The operation also blocked NVA resupply and infiltration routes and pre-empted a major NVA spring offensive.</p>',
 
-  // TODO: Replace X and Y
   HOTSPOTS: [
     {
       id: 1,
-      X: 190,
-      Y: 730,
+      X: 950,
+      Y: 580,
       CONTENT:
         'In January 1969, the NVA established a depot along the border in South Vietnam, in preparation for a strike into the north central area of I Corps. The United States Command referred to this area of enemy concentration as Base Area 611.',
     },
     {
       id: 2,
-      X: 210,
-      Y: 630,
+      X: 270,
+      Y: 400,
       CONTENT:
         'The 9th Marines organized for Operation Dewey Canyon at Vandegrift Combat Base. The operation began on 18 January.',
     },
     {
       id: 3,
       X: 700,
-      Y: 1030,
+      Y: 680,
       CONTENT:
         'As the Marines advanced south towards Base Area 611, they set up FSBs to support their movements. FSB Cunningham was one such position, complete with the regimental command post, field hospital and logistics support group.',
     },
     {
       id: 4,
-      X: 790,
-      Y: 930,
+      X: 810,
+      Y: 540,
       CONTENT:
         'On 21 February, Marines crossed into Laos along Route 922, the main supply road for Base Area 611. While the movement into Laos was supposed to be kept top secret, the border crossing eventually became public and was a source of controversy for years to come.',
     },

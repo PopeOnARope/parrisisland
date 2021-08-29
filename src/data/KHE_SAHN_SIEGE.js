@@ -1,8 +1,8 @@
-export const KHE_SAHN_SEIGE = {
-  NAME: 'KHE_SAHN_SEIGE',
+export const KHE_SAHN_SIEGE = {
+  NAME: 'KHE_SAHN_SIEGE',
   YEAR: '1968',
   TITLE: 'Siege of Khe Sanh',
-  BACKGROUND: 'KHE_SAHN_SEIGE',
+  BACKGROUND: 'KHE_SAHN_SIEGE',
   DATES: 'January 1968',
   CONTENT:
     '<p>Located in a remote area west of Dong Ha, the Khe Sanh Combat Base functioned primarily as a support facility for surveillance units watching the Demilitarized Zone (DMZ) and the Ho Chi Minh Trail in neighboring Laos. Route 9, running east to west, provided the only ground route to and from Khe Sanh. A French colonial highway, Route 9 was a packed dirt track that was impassable during the monsoon season. Marines from 1st Battalion, 26th Regiment (1/26) had established a perimeter on hills surrounding Khe Sanh since sporadic fighting began in April and May 1967.</p>\n' +
@@ -14,29 +14,29 @@ export const KHE_SAHN_SEIGE = {
   HOTSPOTS: [
     {
       id: 1,
-      X: 450,
-      Y: 650,
+      X: 500,
+      Y: 670,
       CONTENT:
         'During the siege, Khe Sanh Combat Base was constantly bombarded by rockets from hill sites. Marines constructed makeshift bunkers to protect themselves.',
     },
     {
       id: 2,
-      X: 350,
-      Y: 490,
+      X: 380,
+      Y: 540,
       CONTENT:
         'The Marines on Hill 861 faced an onslaught from the North Vietnamese. They were temporarily overrun shortly past midnight on 21 January, but took back the fire base by dawn with assistance from close air support',
     },
     {
       id: 3,
-      X: 320,
-      Y: 360,
+      X: 340,
+      Y: 370,
       CONTENT:
         'The Marines from Hill 881S could see the NVA’s three firing positions: Hill 881N, Area 305, and Co Roc Mountain. They warned Khe Sanh about incoming enemy fire and fired on those positions with mortars',
     },
     {
       id: 4,
-      X: 690,
-      Y: 470,
+      X: 685,
+      Y: 495,
       CONTENT:
         'The Lang Vei Special Forces Camp west of Khe Sanh was home to Green Berets and native Montagnard soldiers, who conducted border surveillance and area pacification operations. Early in the morning of 7 February, the NVA overran the camp using amphibious tanks. Later that day, Marine helicopters conducted an evacuation of the camp.',
     },

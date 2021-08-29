@@ -1,7 +1,7 @@
 export const DECKHOUSE_AND_DESOTO = {
   NAME: 'DECKHOUSE_AND_DESOTO',
   YEAR: '1967',
-  TITLE: 'Deckhouse and Desoto',
+  TITLE: 'Operations Deckhouse and Desoto',
   BACKGROUND: 'DECKHOUSE_AND_DESOTO',
   DATES: 'January 27, 1967 - Apr 7, 1967',
   CONTENT:
@@ -15,28 +15,28 @@ export const DECKHOUSE_AND_DESOTO = {
     {
       id: 1,
       X: 190,
-      Y: 730,
+      Y: 760,
       CONTENT:
         'The hamlet of Hai Mon proved to be one of the more difficult places to capture. From behind fortified rice dykes, the enemy laid down heavy crossfire on the Marines. After the first attempt to take the village, ground troops called in heavy naval gunfire and close air support.',
     },
     {
       id: 2,
-      X: 210,
-      Y: 630,
+      X: 220,
+      Y: 680,
       CONTENT:
         'Nui Dang was one of the strategic hills in the Duc Pho region from which the ARVN and the Marines conducted their operations to engage the Viet Cong.',
     },
     {
       id: 3,
-      X: 700,
-      Y: 1030,
+      X: 690,
+      Y: 1100,
       CONTENT:
         'The salt flats were an important economic resource in Vietnam. Control of the area was significant for the Viet Cong and provided them with a source of income.',
     },
     {
       id: 4,
-      X: 790,
-      Y: 930,
+      X: 830,
+      Y: 970,
       CONTENT:
         'An accompanying amphibious landing, entitled Operation Deckhouse VI, began with a landing at Sa Huynh on 16 February. After encountering little resistance, the Marines of 1st Battalion, 4th Regiment (1/4) continued inland toward Nui Dau destroying numerous Viet Cong stores and bunkers.',
     },
