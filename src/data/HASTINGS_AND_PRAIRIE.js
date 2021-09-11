@@ -1,6 +1,6 @@
 export const HASTINGS_AND_PRAIRIE = {
   NAME: 'HASTINGS_AND_PRAIRIE',
-  YEAR: '1965',
+  YEAR: '1966',
   TITLE: 'Operations Hastings and Prairie',
   BACKGROUND: 'HASTINGS_AND_PRAIRIE',
   DATES: 'July - August 1966',

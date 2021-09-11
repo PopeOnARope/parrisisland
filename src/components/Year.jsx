@@ -31,7 +31,7 @@ const Alphabetical = ({
         />
         <BackButton
           onClick={() => {
-            setCurrentScreen(getScreen("HOME"));
+            setCurrentScreen(getScreen("CHRONOLOGICAL"));
           }}
         />
       </div>

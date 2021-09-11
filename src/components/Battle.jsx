@@ -50,6 +50,7 @@ const Battle = ({
             className="h-full w-1/3 flex flex-row justify-center items-center"
             disabled={previousButtonDisabled}
             onClick={() => {
+              setPopover(false)
               setCurrentScreen(flows[currentFlow][indexOfCurrentScreen - 2]);
             }}
           >
@@ -67,6 +68,7 @@ const Battle = ({
             className="h-full w-1/3 flex flex-row justify-center items-center square"
             disabled={nextButtonDisabled}
             onClick={() => {
+              setPopover(false)
               setCurrentScreen(flows[currentFlow][indexOfCurrentScreen]);
             }}
           >
@@ -103,6 +105,7 @@ const Battle = ({
           })`,
           backgroundRepeat: "none",
           backgroundSize: "cover",
+          backgroundPosition: 'bottom'
         }}
         className="flex flex-end"
       >
