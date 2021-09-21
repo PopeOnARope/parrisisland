@@ -24,8 +24,8 @@ const HotSpot = (props) => {
   return (
     <div
       style={{
-        marginTop: `${props.X}px`,
-        marginLeft: `${props.Y}px`,
+        marginTop: `${props.X * 2}px`,
+        marginLeft: `${props.Y * 2}px`,
         position: "absolute",
       }}
     >
@@ -40,7 +40,7 @@ const HotSpot = (props) => {
         }}
         onClick={props.onClick}
       >
-        <Icon width="50px" height="50px" fill="#F5D952" />
+        <Icon width="100px" height="100px" fill="#F5D952" />
       </a>
     </div>
   );

@@ -471,7 +471,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2021-08-08T05:32:47.511Z"
+      "lastModifiedTime": "2021-09-14T18:34:46.888Z"
     },
     "zones": {
       "zonesById": {
@@ -655,7 +655,7 @@
         "queryString": {
           "params": []
         },
-        "indexAssetId": "73190d02-cfbe-4dd4-a8e8-4f7bcfde70bb",
+        "indexAssetId": "35cb87a3-5684-47b3-b292-1c6402b1264a",
         "enableNode": true
       }
     },
@@ -683,17 +683,17 @@
     "partnerProducts": {},
     "customAutorun": "0",
     "assetMap": {
-      "73190d02-cfbe-4dd4-a8e8-4f7bcfde70bb": {
-        "id": "73190d02-cfbe-4dd4-a8e8-4f7bcfde70bb",
+      "35cb87a3-5684-47b3-b292-1c6402b1264a": {
+        "id": "35cb87a3-5684-47b3-b292-1c6402b1264a",
         "name": "index.html",
-        "path": "/Users/johnpope/Desktop/code/pi3/build/",
+        "path": "/Users/johnpope/Desktop/code/parrisisland/build/",
         "networkId": 0,
         "location": "Local",
         "assetType": "HtmlSite",
         "scope": "931261d025797372",
-        "locator": "file:///Users/johnpope/Desktop/code/pi3/build/index.html",
-        "fileSize": 3099,
-        "lastModifiedDate": "2021-08-08T05:27:50.299Z",
+        "locator": "file:///Users/johnpope/Desktop/code/parrisisland/build/index.html",
+        "fileSize": 3097,
+        "lastModifiedDate": "2021-09-14T18:27:32.520Z",
         "refCount": 1
       }
     },
@@ -731,7 +731,7 @@
       }
     },
     "isEventAdvancedEnabled": false,
-    "activeAssetMenuTab": "WIDGETS"
+    "activeAssetMenuTab": "ASSETS"
   },
   "interactiveCanvas": {
     "statePositionById": {},

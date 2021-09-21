@@ -15,13 +15,7 @@ const Alphabetical = ({
   return (
     <div
       className="w-full h-full bg-gray-600 flex flex-row justify-end"
-      style={{
-        backgroundRepeat: "none",
-        background: `url(${
-          require(`../assets/images/Home_Menus_BaseMap.jpg`).default
-        })`,
-        backgroundSize: "cover",
-      }}
+
     >
       <div className="h-full w-full flex flex-col justify-end pl-0 pb-16 justify-between">
         <ReturnButton

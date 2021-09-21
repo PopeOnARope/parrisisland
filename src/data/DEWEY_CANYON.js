@@ -21,7 +21,7 @@ export const DEWEY_CANYON = {
     },
     {
       id: 2,
-      X: 270,
+      X: 215,
       Y: 400,
       CONTENT:
         'The 9th Marines organized for Operation Dewey Canyon at Vandegrift Combat Base. The operation began on 18 January.',

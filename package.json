@@ -1,7 +1,7 @@
 {
   "name": "parrisisland",
   "version": "0.1.0",
-  "homepage": "https://popeonarope.github.io/parrisisland",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",

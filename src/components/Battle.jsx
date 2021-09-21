@@ -26,6 +26,7 @@ const Battle = ({
   setPreviousScreen,
   currentScreen,
   currentFlow,
+  backgrounds,
 }) => {
   const [popover, setPopover] = React.useState(false);
 
@@ -37,20 +38,23 @@ const Battle = ({
   const nextButtonDisabled = indexOfCurrentScreen === flows[currentFlow].length;
   const previousButtonDisabled = indexOfCurrentScreen === 1;
   return (
-    <div className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row">
+    <div
+      className=" border-2 border-green-400 flex flex-row"
+      style={{ height: "2160px" }}
+    >
       <div
         className="border-l-8 border-gray-900 bg-tan overflow-scroll no-scrollbar"
-        style={{ width: "700px" }}
+        style={{ width: "1400px" }}
       >
         <div
           className="flex flex-row justify-between"
-          style={{ height: "125px" }}
+          style={{ height: "250px" }}
         >
           <button
             className="h-full w-1/3 flex flex-row justify-center items-center"
             disabled={previousButtonDisabled}
             onClick={() => {
-              setPopover(false)
+              setPopover(false);
               setCurrentScreen(flows[currentFlow][indexOfCurrentScreen - 2]);
             }}
           >
@@ -68,7 +72,7 @@ const Battle = ({
             className="h-full w-1/3 flex flex-row justify-center items-center square"
             disabled={nextButtonDisabled}
             onClick={() => {
-              setPopover(false)
+              setPopover(false);
               setCurrentScreen(flows[currentFlow][indexOfCurrentScreen]);
             }}
           >
@@ -79,12 +83,12 @@ const Battle = ({
             />
           </button>
         </div>
-        <div className="w-full bg-yellow border-t-4 border-b-4 border-black flex flex-col align-items-center text-5xl p-2 square mb-5">
+        <div className="w-full bg-yellow border-t-4 border-b-4 border-black flex flex-col align-items-center text-5xl p-4 square mb-10">
           {currentScreen.YEAR}
         </div>
         <h1
           className="text-center ven mb-1 text-uppercase"
-          style={{ fontSize: "28px", fontWeight: 800 }}
+          style={{ fontSize: "56px", fontWeight: 800 }}
         >
           {currentScreen.TITLE}
         </h1>
@@ -99,13 +103,11 @@ const Battle = ({
 
       <div
         style={{
-          width: "1220px",
-          backgroundImage: `url(${
-            require(`../assets/images/${currentScreen.BACKGROUND}.jpg`).default
-          })`,
+          width: "2440px",
+          backgroundImage: `url(${backgrounds[currentScreen.BACKGROUND]})`,
           backgroundRepeat: "none",
           backgroundSize: "cover",
-          backgroundPosition: 'bottom'
+          backgroundPosition: "bottom",
         }}
         className="flex flex-end"
       >

@@ -1,5 +1,6 @@
 export const HOME = {
   NAME: 'HOME',
+  BACKGROUND: 'HOME',
   TITLE: 'Interactive Guide to Operations',
   ACTIONS: [
     {

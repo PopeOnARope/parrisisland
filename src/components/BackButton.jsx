@@ -9,10 +9,10 @@ const Button = ({
   return (
     <button
       className="text-white mt-5 square text-left gradient-GREEN-reverse flex flex-row text-6xl items-center p-2"
-      style={{ width: "400px" }}
+      style={{ width: "800px" }}
       onClick={onClick}
     >
-      <DoubleArrow height="90px" transform="rotate(180)" />
+      <DoubleArrow height="180px" transform="rotate(180)" />
       BACK
     </button>
   );

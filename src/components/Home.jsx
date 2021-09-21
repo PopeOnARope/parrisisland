@@ -7,27 +7,20 @@ const TextBox = ({
   setCurrentFlow,
   setPreviousScreen,
   setCurrentScreen,
+  backgrounds,
+  currentScreen,
   ...props
 }) => {
   return (
-    <div
-      className="w-full h-full border-2 border-green-400 bg-gray-600 flex flex-row justify-end"
-      style={{
-        background: `url(${
-          require(`../assets/images/Home_Menus_BaseMap.jpg`).default
-        })`,
-        backgroundRepeat: "none",
-        backgroundSize: "cover",
-      }}
-    >
-      <div className="flex flex-col mt-80">
+    <div className="w-full h-full bg-gray-600 flex flex-row justify-end">
+      <div className="flex flex-col mt-80" style={{zIndex: 100}}>
         <h1 className="ven text-5xl tracking-wider text-white">
           INTERACTIVE GUIDE TO
         </h1>
         <h1 className="square text-7xl mb-44 text-green tracking-super-wide">
           OPERATIONS
         </h1>
-        {props.ACTIONS.map((action) => (
+        {currentScreen.ACTIONS.map((action) => (
           <Button
             {...action}
             variant="lg"
@@ -41,6 +34,7 @@ const TextBox = ({
           </Button>
         ))}
       </div>
+      <img src={backgrounds[currentScreen.BACKGROUND]} className='absolute' />
     </div>
   );
 };

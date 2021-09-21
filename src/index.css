@@ -13,12 +13,20 @@
   src: url("./assets/fonts/Calibri.ttf");
 }
 
+html {
+  font-size: 32px;
+}
 body,
 #root {
   margin: 0;
-  width: 1920px;
-  height: 1080px;
-  background: #ddd;
+  width: 3840px;
+  height: 2160px;
+
+  /*background: #ddd;*/
+}
+
+img {
+  z-index: 0;
 }
 
 code {
@@ -38,6 +46,14 @@ code {
     rgba(222, 181, 72, 1) 55%
   );
 }
+.gradient-YELLOW:active {
+  background: linear-gradient(
+    90deg,
+    rgba(223, 191, 103, 0.0718662464985994) 0%,
+    rgba(223, 191, 103, 0.8085609243697479) 27%,
+    rgba(223, 191, 103, 1) 55%
+  );
+}
 
 .gradient-GREEN {
   background: linear-gradient(
@@ -45,6 +61,15 @@ code {
     rgba(103, 172, 105, 0.0718662464985994) 0%,
     rgba(103, 172, 105, 0.8085609243697479) 27%,
     rgba(103, 172, 105, 1) 55%
+  );
+}
+
+.gradient-GREEN:active {
+  background: linear-gradient(
+    90deg,
+    rgba(129, 216, 131, 0.0718662464985994) 0%,
+    rgba(129, 216, 131, 0.8085609243697479) 27%,
+    rgba(129, 216, 131, 1) 55%
   );
 }
 
@@ -86,3 +111,44 @@ code {
 }
 /*@tailwind utilities {*/
 /*}*/
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}

@@ -13,14 +13,7 @@ const Alphabetical = ({
 }) => {
   return (
     <div
-      className="w-full h-full bg-gray-600 flex flex-row justify-end"
-      style={{
-        backgroundRepeat: "none",
-        background: `url(${
-          require(`../assets/images/Home_Menus_BaseMap.jpg`).default
-        })`,
-        backgroundSize: "cover",
-      }}
+      className="w-full h-full flex flex-row justify-end"
     >
       <div className="h-full w-full flex flex-col justify-end pl-0 pb-16">
         <BackButton
@@ -31,11 +24,11 @@ const Alphabetical = ({
       </div>
 
       <div className="flex flex-col mt-36 mr-48">
-        <div className="flex flex-row mr-3 mb-4" style={{ height: "100px" }}>
+        <div className="flex flex-row mr-3 mb-4" style={{ height: "200px" }}>
           <Button
             COLOR="GREEN"
             variant="sm"
-            width="292px"
+            width="584px"
             style={currentScreen.NAME === "ALPHABETICAL_BATTLES" && "outline"}
             onClick={() => {
               setCurrentFlow("ALPHABETICAL_OPERATIONS");
@@ -51,7 +44,7 @@ const Alphabetical = ({
               currentScreen.NAME === "ALPHABETICAL_OPERATIONS" && "outline"
             }
             variant="sm"
-            width="292px"
+            width="584px"
             onClick={() => {
               setCurrentFlow("ALPHABETICAL_BATTLES");
               setCurrentScreen(getScreen("ALPHABETICAL_BATTLES"));

@@ -21,7 +21,7 @@ export const DECKHOUSE_AND_DESOTO = {
     },
     {
       id: 2,
-      X: 220,
+      X: 210,
       Y: 680,
       CONTENT:
         'Nui Dang was one of the strategic hills in the Duc Pho region from which the ARVN and the Marines conducted their operations to engage the Viet Cong.',
@@ -29,14 +29,14 @@ export const DECKHOUSE_AND_DESOTO = {
     {
       id: 3,
       X: 690,
-      Y: 1100,
+      Y: 2170/2,
       CONTENT:
         'The salt flats were an important economic resource in Vietnam. Control of the area was significant for the Viet Cong and provided them with a source of income.',
     },
     {
       id: 4,
-      X: 830,
-      Y: 970,
+      X: 820,
+      Y: 960,
       CONTENT:
         'An accompanying amphibious landing, entitled Operation Deckhouse VI, began with a landing at Sa Huynh on 16 February. After encountering little resistance, the Marines of 1st Battalion, 4th Regiment (1/4) continued inland toward Nui Dau destroying numerous Viet Cong stores and bunkers.',
     },

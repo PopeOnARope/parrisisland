@@ -2,6 +2,7 @@ import { DECKHOUSE_AND_DESOTO } from './constants';
 
 export const ALPHABETICAL_OPERATIONS = {
   NAME: 'ALPHABETICAL_OPERATIONS',
+  BACKGROUND: 'HOME',
   ACTIONS: [
     {
       LABEL: 'DECKHOUSE AND DESOTO',
@@ -44,5 +45,4 @@ export const ALPHABETICAL_OPERATIONS = {
       COLOR: 'GREEN',
     },
   ],
-  BACKGROUND: 'CON_THIEN',
 };

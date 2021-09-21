@@ -20,11 +20,11 @@ const Button = ({
     return (
       <button
         className={`gradient-${COLOR} text-white p-6 py-2 text-6xl inline-flex justify-end items-center square ml-4`}
-        style={{ width: "400px", marginBottom: "26px" }}
+        style={{ width: "800px", marginBottom: "52px" }}
         onClick={onClick}
       >
         {children}
-        {arrow && <DoubleArrow height="90px" />}
+        {arrow && <DoubleArrow height="180px" />}
       </button>
     );
   }
@@ -37,11 +37,11 @@ const Button = ({
       } text-white ${sizes[variant]} mt-4 square text-${
         alignment || "center"
       } ml-4 ${arrow && "inline-flex justify-between items-center"}`}
-      style={{ width: width || (variant === "sm" ? "600px" : "680px") }}
+      style={{ width: width || (variant === "sm" ? "1200px" : "1360px") }}
       onClick={onClick}
     >
       {children}
-      {arrow && <DoubleArrow height="50px" />}
+      {arrow && <DoubleArrow height="100px" />}
     </button>
   );
 };

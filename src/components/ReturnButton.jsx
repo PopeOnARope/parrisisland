@@ -1,6 +1,5 @@
 import React from "react";
-import DoubleArrow from "../assets/icons/DoubleArrow";
-import Refresh from "../assets/icons/Refresh";
+import HomeIcon from "../assets/icons/HomeIcon";
 
 const Button = ({
   onClick,
@@ -12,7 +11,7 @@ const Button = ({
       className="text-white square text-left gradient-GREEN-reverse flex flex-row text-6xl items-center p-2 w-32 h-32"
       onClick={onClick}
     >
-      <Refresh />
+      <HomeIcon />
     </button>
   );
 };
