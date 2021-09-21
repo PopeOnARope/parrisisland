@@ -48,6 +48,7 @@ const CHRONOLOGICAL_BATTLES = [
   { ...TAYLOR_COMMON },
   { ...KHE_SAHN_SIEGE },
   { ...DAI_DO },
+  { ...TET_OFFENSE },
 ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'CHRONOLOGICAL' }));
 
 export const years = ['1965', '1966', '1967', '1968', '1969', '1970s'].map(
@@ -87,6 +88,7 @@ export const flows = {
     { ...DAI_DO },
     { ...KHE_SAHN_HILL_FIGHTS },
     { ...KHE_SAHN_SIEGE },
+    { ...TET_OFFENSE },
   ].map((battle) => ({ ...battle, PREVIOUS_SCREEN: 'ALPHABETICAL_BATTLES' })),
   CHRONOLOGICAL: [...years],
   CHRONOLOGICAL_BATTLES,

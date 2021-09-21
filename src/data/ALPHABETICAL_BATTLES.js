@@ -23,5 +23,10 @@ export const ALPHABETICAL_BATTLES = {
       DIRECTS_TO: 'KHE_SAHN_SIEGE',
       COLOR: 'YELLOW',
     },
+    {
+      LABEL: 'TET OFFENSIVE - BATTLE FOR HUE CITY',
+      DIRECTS_TO: 'TET_OFFENSE',
+      COLOR: 'YELLOW',
+    },
   ],
 };
