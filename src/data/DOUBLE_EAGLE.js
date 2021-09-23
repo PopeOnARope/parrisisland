@@ -3,7 +3,7 @@ export const DOUBLE_EAGLE = {
   YEAR: '1966',
   TITLE: 'Operation Double Eagle',
   BACKGROUND: 'DOUBLE_EAGLE',
-  DATES: 'January 28, 1966 - February 17, 1966',
+  DATES: 'January 12, 1966 - February 17, 1966',
   CONTENT:
     '<p>Entering 1966, the United States Military Command in Vietnam directed the Marines to begin actively engaging the Viet Cong and the North Vietnamese Army (NVA) in the remote mountainous jungles. Operation Double Eagle, which took place south of Chu Lai in January 1966, was the largest search-and-destroy mission to that date. The operation would strike at the growing Viet Cong and NVA presence in the region. Five thousand-plus Marines from various units searched the area and cleared out numerous North Vietnamese positions. South Vietnamese forces and U.S. Army Divisions also contributed to the operation.</p>\n' +
     '<p>The operation consisted of three components. Reconnaissance Marines would enter the area of operations ahead of the main force and provide intelligence on the Communist position. Two Marine battalions would land at Red Beach and begin operating along the coastline to give the appearance that they were only interested in strikes along the coast. The exploitation portion of the mission would involve limited B-52 strikes, followed by Marines deployed via helicopter.</p>\n' +
@@ -20,8 +20,8 @@ export const DOUBLE_EAGLE = {
     },
     {
       id: 2,
-      X: 530/2,
-      Y: 1520/2,
+      X: 820/2,
+      Y: 1840/2,
       CONTENT:
         'Beginning on 1 February and following the B-52 bombing strikes against the valley, helicopters transported 2d Battalion, 7th Regiment (2/7), 2d Battalion, 9th Regiment (2/9) and 2d Battalion, 3d Regiment 2/3 into the valley and began sweeping the area for remaining Viet Cong.',
     },

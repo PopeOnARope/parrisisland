@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 import { getScreen, screens, flows } from "../data";
+import HomeButton from "./HomeButton";
 
 const TextBox = ({
   setCurrentFlow,
@@ -21,17 +22,18 @@ const TextBox = ({
           OPERATIONS
         </h1>
         {currentScreen.ACTIONS.map((action) => (
-          <Button
+          <HomeButton
             {...action}
             variant="lg"
             alignment="right"
+            arrow
             onClick={() => {
               setCurrentFlow(action.DIRECTS_TO);
               setCurrentScreen(getScreen(action.DIRECTS_TO));
             }}
           >
             {action.LABEL}
-          </Button>
+          </HomeButton>
         ))}
       </div>
       <img src={backgrounds[currentScreen.BACKGROUND]} className='absolute' />

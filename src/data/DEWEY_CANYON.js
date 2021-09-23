@@ -1,9 +1,13 @@
 export const DEWEY_CANYON = {
   NAME: 'DEWEY_CANYON',
-  YEAR: '1967', // Change year when final draft PDF is available
+  YEAR: '1969', // Change year when final draft PDF is available
   TITLE: 'Operation Dewey Canyon',
   BACKGROUND: 'DEWEY_CANYON',
-  DATES: 'January 27, 1967 - Apr 7, 1967', // Change dates when final draft PDF is available
+  DATES: 'January 22, 1969 - March 18, 1969',
+  CONTENTCOORDINATES:{
+    X: 890,
+    Y: 250
+  },
   CONTENT:
     '<p>In January 1969, Marine Corps commanders received reports about enemy forces infiltrating from the Annamite Mountain Range along the Laotian border into South Vietnam’s A Shau and Sing Da Krong valleys. An increase in truck traffic and antiaircraft defenses led them to believe the North Vietnamese Army (NVA) was establishing a major logistical base, to be known as Base Area 611, in the A Shau Valley from which they could launch attacks against targets in the I Corps area.</p>\n' +
     '<p>Designed to block possible enemy incursions into the populous coastal lowlands and destroy Base Area 611, Operation Dewey Canyon, initially termed Operation Dawson River South, was developed. It was to be a three phased regimental sweep through the Da Krong Valley to Base Area 611, executed by Colonel Robert Barrow’s 9th Marines.  For deployment, resupply and evacuation, the Marines relied entirely on helicopters.</p>\n' +
@@ -21,7 +25,7 @@ export const DEWEY_CANYON = {
     },
     {
       id: 2,
-      X: 215,
+      X: 240,
       Y: 400,
       CONTENT:
         'The 9th Marines organized for Operation Dewey Canyon at Vandegrift Combat Base. The operation began on 18 January.',

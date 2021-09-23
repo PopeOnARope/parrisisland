@@ -1,6 +1,6 @@
 export const IMPERIAL_LAKE = {
   NAME: 'IMPERIAL_LAKE',
-  YEAR: '1970-71',
+  YEAR: '1970',
   TITLE: 'Operation Imperial Lake',
   BACKGROUND: 'IMPERIAL_LAKE',
   DATES: 'August 1970',

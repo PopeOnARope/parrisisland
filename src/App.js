@@ -77,7 +77,7 @@ function App() {
       style={
         {
           height: '2160px',
-          backgroundImage: `url(${backgrounds[currentScreen.BACKGROUND]})`,
+          backgroundImage: `url(${backgrounds[currentScreen.BACKGROUND] || HOME})`,
           backgroundSize: 'contain',
           backgroundPositionX: 'right'
         }

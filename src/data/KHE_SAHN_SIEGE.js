@@ -3,7 +3,7 @@ export const KHE_SAHN_SIEGE = {
   YEAR: '1968',
   TITLE: 'Siege of Khe Sanh',
   BACKGROUND: 'KHE_SAHN_SIEGE',
-  DATES: 'January 1968',
+  DATES: 'January 21 - July 9 1968',
   CONTENT:
     '<p>Located in a remote area west of Dong Ha, the Khe Sanh Combat Base functioned primarily as a support facility for surveillance units watching the Demilitarized Zone (DMZ) and the Ho Chi Minh Trail in neighboring Laos. Route 9, running east to west, provided the only ground route to and from Khe Sanh. A French colonial highway, Route 9 was a packed dirt track that was impassable during the monsoon season. Marines from 1st Battalion, 26th Regiment (1/26) had established a perimeter on hills surrounding Khe Sanh since sporadic fighting began in April and May 1967.</p>\n' +
     '<p>In October and November 1967, two North Vietnamese Army (NVA) divisions began to move through Laos and across the Demilitarized Zone (DMZ). Suspecting an attack, the US Military increased the number of defenders at Khe Sanh to 5,000. At the same time, Operation Niagara I was launched in the first week of January 1968, using the various intelligence and strike capabilities of the Navy, Marine Corps and Air Force to monitor and counter NVA movements.</p>\n' +

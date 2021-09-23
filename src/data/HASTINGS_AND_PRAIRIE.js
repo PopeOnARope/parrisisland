@@ -3,7 +3,7 @@ export const HASTINGS_AND_PRAIRIE = {
   YEAR: '1966',
   TITLE: 'Operations Hastings and Prairie',
   BACKGROUND: 'HASTINGS_AND_PRAIRIE',
-  DATES: 'July - August 1966',
+  DATES: 'July 15 - December 31 1966',
   CONTENT:
     '<p>While domestic unrest surged across South Vietnam during the early months of 1966, the United States military command in South Vietnam became concerned about North Vietnamese Army (NVA) movements from the Demilitarized Zone (DMZ) into Quang Tri Province. Initial Marine reconnaissance in May found no enemy, but in June Marine patrols discovered that the NVA 324B Division had entered the province’s northern sector. To counter the enemy’s movement the five-battalion Task Force Delta was created to take the lead in attacking the enemy division, with support from South Vietnamese forces.</p>\n' +
     '<p>The first major operation against regular NVA units, Operation Hastings, opened on 15 July, when two Marine battalions were helicoptered into the Ngan Valley and moved south against heavy enemy resistance, while a Special Landing Force battalion landed near the combat base at the Rockpile and marched north. Catching their opponents between them, the Marine detachments forced the NVA to withdraw. For the Marines, the battle was the largest and costliest of the war to date, involving eight thousand Marines and three thousand South Vietnamese troops. The operation ended on 3 August and cost the Marines 126 killed, 448 wounded, while 834 of the enemy were killed. </p>\n' +
@@ -18,8 +18,8 @@ export const HASTINGS_AND_PRAIRIE = {
     },
     {
       id: 2,
-      X: 860,
-      Y: 170, //150
+      X: 850,
+      Y: 190, //150
       CONTENT:
         'The Rockpile was a strategically significant high point in the area of Operations Hastings and Prairie. The Marines used it as an observation post, artillery position and a resupply point for helicopters. In late August, it was threatened by NVA machine gun fire from a hill mass known as Razorback, directly to the Northwest of the Rockpile.  A treacherous operation to neutralize the gunfire ensued.',
     },

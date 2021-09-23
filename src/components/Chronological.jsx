@@ -14,7 +14,7 @@ const Alphabetical = ({
 }) => {
   return (
     <div
-      className="w-full h-full bg-gray-600 flex flex-row justify-end"
+      className="w-full h-full flex flex-row justify-end"
 
     >
       <div className="h-full w-full flex flex-col justify-end pl-0 pb-16 justify-between">

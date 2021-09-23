@@ -3,6 +3,7 @@ import Button from "./Button";
 
 import { getScreen, screens } from "../data";
 import BackButton from "./BackButton";
+import ReturnButton from "./ReturnButton";
 
 const Alphabetical = ({
   setCurrentScreen,
@@ -15,7 +16,12 @@ const Alphabetical = ({
     <div
       className="w-full h-full flex flex-row justify-end"
     >
-      <div className="h-full w-full flex flex-col justify-end pl-0 pb-16">
+      <div className="h-full w-full flex flex-col justify-end pl-0 pb-16 justify-between">
+        <ReturnButton
+          onClick={() => {
+            setCurrentScreen(getScreen("HOME"));
+          }}
+        />
         <BackButton
           onClick={() => {
             setCurrentScreen(getScreen("HOME"));

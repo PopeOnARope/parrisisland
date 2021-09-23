@@ -8,7 +8,7 @@ export const CHRONOLOGICAL = {
     },
     {
       LABEL: '1966',
-      DIRECTS_TO: '1965',
+      DIRECTS_TO: '1966',
       COLOR: 'GREEN',
     },
     {

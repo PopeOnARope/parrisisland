@@ -18,19 +18,22 @@ const Icons = {
 
 const HotSpot = (props) => {
   const [popoverOpen, setPopoverOpen] = React.useState(false);
+  const [isPulse, setIsPulse] = React.useState(false)
   const Icon = Icons[props.id];
 
   const toggle = () => setPopoverOpen(!popoverOpen);
   return (
     <div
+      className={`${isPulse && 'pulse-single'}`}
       style={{
         marginTop: `${props.X * 2}px`,
         marginLeft: `${props.Y * 2}px`,
         position: "absolute",
+        borderRadius: '100%'
       }}
     >
       <a
-        className="bg-purple-100"
+
         style={{
           display: "inherit",
           background: "#F5D952",
@@ -38,7 +41,15 @@ const HotSpot = (props) => {
           borderRadius: "100%",
           boxShadow: "0px 0px 15px 5px #000000",
         }}
-        onClick={props.onClick}
+        onTouchStart={
+          ()=> {
+            props.onClick()
+            setIsPulse(true)
+            setTimeout(()=>{
+              setIsPulse(false)
+            }, 500)
+          }
+        }
       >
         <Icon width="100px" height="100px" fill="#F5D952" />
       </a>

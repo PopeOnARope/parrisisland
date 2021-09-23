@@ -44,6 +44,7 @@ const CHRONOLOGICAL_BATTLES = [
   { ...DECKHOUSE_AND_DESOTO },
   { ...DEWEY_CANYON },
   { ...CON_THIEN },
+  { ...IMPERIAL_LAKE },
   { ...KHE_SAHN_HILL_FIGHTS },
   { ...TAYLOR_COMMON },
   { ...KHE_SAHN_SIEGE },

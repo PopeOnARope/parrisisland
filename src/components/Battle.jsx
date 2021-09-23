@@ -37,29 +37,42 @@ const Battle = ({
   const numberOfScreens = flows[currentFlow].length;
   const nextButtonDisabled = indexOfCurrentScreen === flows[currentFlow].length;
   const previousButtonDisabled = indexOfCurrentScreen === 1;
+
+  const ref = React.useRef(null)
+
+  function scrollUp(){
+    ref.current.scrollTop = 0;
+  }
+
+  const extraContentPadding =  (popover && currentScreen.CONTENTCOORDINATES) ? {
+    marginTop: `${currentScreen?.CONTENTCOORDINATES?.X}px`,
+    marginLeft:`${currentScreen?.CONTENTCOORDINATES?.Y}px`
+  } : {}
   return (
     <div
-      className=" border-2 border-green-400 flex flex-row"
+      className=" flex flex-row"
       style={{ height: "2160px" }}
     >
       <div
-        className="border-l-8 border-gray-900 bg-tan overflow-scroll no-scrollbar"
+        className="bg-tan overflow-scroll no-scrollbar"
         style={{ width: "1400px" }}
+        ref={ref}
       >
         <div
-          className="flex flex-row justify-between"
-          style={{ height: "250px" }}
+          className="flex flex-row justify-between border-b-8 border-black ARROWS sticky bg-tan"
+          style={{ height: "250px", width:'inherit', position: 'absolute', left: 0 }}
         >
           <button
             className="h-full w-1/3 flex flex-row justify-center items-center"
             disabled={previousButtonDisabled}
             onClick={() => {
               setPopover(false);
+              scrollUp()
               setCurrentScreen(flows[currentFlow][indexOfCurrentScreen - 2]);
             }}
           >
             <DoubleArrow
-              height="60px"
+              height="120px"
               transform="rotate(180)"
               fill={previousButtonDisabled ? "#777" : "black"}
               stroke={previousButtonDisabled ? "#777" : "black"}
@@ -73,22 +86,23 @@ const Battle = ({
             disabled={nextButtonDisabled}
             onClick={() => {
               setPopover(false);
+              scrollUp()
               setCurrentScreen(flows[currentFlow][indexOfCurrentScreen]);
             }}
           >
             <DoubleArrow
-              height="60px"
+              height="120px"
               fill={nextButtonDisabled ? "#777" : "black"}
               stroke={nextButtonDisabled ? "#777" : "black"}
             />
           </button>
         </div>
-        <div className="w-full bg-yellow border-t-4 border-b-4 border-black flex flex-col align-items-center text-5xl p-4 square mb-10">
+        <div className="w-full bg-yellow border-b-8 border-black flex flex-col align-items-center text-5xl p-4 square mb-10" style={{marginTop: '7.75rem'}}>
           {currentScreen.YEAR}
         </div>
         <h1
           className="text-center ven mb-1 text-uppercase"
-          style={{ fontSize: "56px", fontWeight: 800 }}
+          style={{ fontSize: "2.5rem", fontWeight: 800 }}
         >
           {currentScreen.TITLE}
         </h1>
@@ -97,6 +111,7 @@ const Battle = ({
         </h2>
         <div
           className="w-full p-20 pt-0 battle-content"
+          style={{fontSize: '1.25rem'}}
           dangerouslySetInnerHTML={{ __html: currentScreen.CONTENT }}
         ></div>
       </div>
@@ -133,7 +148,7 @@ const Battle = ({
             />
           );
         })}
-        <div className="position-absolute bg-yellow m-16 p-8 flex flex-row max-w-xl shadow">
+        <div className="position-absolute bg-yellow m-16 p-8 flex flex-row max-w-xl shadow" style={extraContentPadding}>
           {popover || defaultPopoverContent}
         </div>
       </div>
