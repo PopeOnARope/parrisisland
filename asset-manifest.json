@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/parrisisland/static/css/main.d35219ef.chunk.css",
-    "main.js": "/parrisisland/static/js/main.32bd90bc.chunk.js",
-    "main.js.map": "/parrisisland/static/js/main.32bd90bc.chunk.js.map",
+    "main.js": "/parrisisland/static/js/main.7b7ace24.chunk.js",
+    "main.js.map": "/parrisisland/static/js/main.7b7ace24.chunk.js.map",
     "runtime-main.js": "/parrisisland/static/js/runtime-main.3374e9f7.js",
     "runtime-main.js.map": "/parrisisland/static/js/runtime-main.3374e9f7.js.map",
     "static/css/2.41e091ad.chunk.css": "/parrisisland/static/css/2.41e091ad.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.41e091ad.chunk.css",
     "static/js/2.cadad503.chunk.js",
     "static/css/main.d35219ef.chunk.css",
-    "static/js/main.32bd90bc.chunk.js"
+    "static/js/main.7b7ace24.chunk.js"
   ]
 }
